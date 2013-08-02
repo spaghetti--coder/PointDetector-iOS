@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAFC061E17ABA3EA007F4122 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC061D17ABA3EA007F4122 /* UIKit.framework */; };
+		EAFC062017ABA3EA007F4122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC061F17ABA3EA007F4122 /* Foundation.framework */; };
+		EAFC062217ABA3EA007F4122 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC062117ABA3EA007F4122 /* CoreGraphics.framework */; };
+		EAFC062817ABA3EA007F4122 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAFC062617ABA3EA007F4122 /* InfoPlist.strings */; };
+		EAFC062A17ABA3EA007F4122 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFC062917ABA3EA007F4122 /* main.m */; };
+		EAFC062E17ABA3EA007F4122 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFC062D17ABA3EA007F4122 /* AppDelegate.m */; };
+		EAFC063117ABA3EA007F4122 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFC062F17ABA3EA007F4122 /* MainStoryboard_iPhone.storyboard */; };
+		EAFC063417ABA3EA007F4122 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFC063217ABA3EA007F4122 /* MainStoryboard_iPad.storyboard */; };
+		EAFC063717ABA3EA007F4122 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFC063617ABA3EA007F4122 /* FirstViewController.m */; };
+		EAFC063917ABA3EA007F4122 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = EAFC063817ABA3EA007F4122 /* first.png */; };
+		EAFC063B17ABA3EA007F4122 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAFC063A17ABA3EA007F4122 /* first@2x.png */; };
+		EAFC063E17ABA3EA007F4122 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFC063D17ABA3EA007F4122 /* SecondViewController.m */; };
+		EAFC064017ABA3EA007F4122 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = EAFC063F17ABA3EA007F4122 /* second.png */; };
+		EAFC064217ABA3EA007F4122 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAFC064117ABA3EA007F4122 /* second@2x.png */; };
+		EAFC064A17ABA3EA007F4122 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC064917ABA3EA007F4122 /* SenTestingKit.framework */; };
+		EAFC064B17ABA3EA007F4122 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC061D17ABA3EA007F4122 /* UIKit.framework */; };
+		EAFC064C17ABA3EA007F4122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC061F17ABA3EA007F4122 /* Foundation.framework */; };
+		EAFC065417ABA3EA007F4122 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAFC065217ABA3EA007F4122 /* InfoPlist.strings */; };
+		EAFC065717ABA3EA007F4122 /* pointdetectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFC065617ABA3EA007F4122 /* pointdetectorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAFC064D17ABA3EA007F4122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAFC061017ABA3E9007F4122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAFC061817ABA3EA007F4122;
+			remoteInfo = pointdetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAFC061917ABA3EA007F4122 /* pointdetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pointdetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFC061D17ABA3EA007F4122 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EAFC061F17ABA3EA007F4122 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EAFC062117ABA3EA007F4122 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EAFC062517ABA3EA007F4122 /* pointdetector-Info.plist */ = {isa = PBXFileReference; path = "pointdetector-Info.plist"; sourceTree = "<group>"; };
+		EAFC062717ABA3EA007F4122 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAFC062917ABA3EA007F4122 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAFC062B17ABA3EA007F4122 /* pointdetector-Prefix.pch */ = {isa = PBXFileReference; path = "pointdetector-Prefix.pch"; sourceTree = "<group>"; };
+		EAFC062C17ABA3EA007F4122 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAFC062D17ABA3EA007F4122 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAFC063017ABA3EA007F4122 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		EAFC063317ABA3EA007F4122 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		EAFC063517ABA3EA007F4122 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		EAFC063617ABA3EA007F4122 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		EAFC063817ABA3EA007F4122 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		EAFC063A17ABA3EA007F4122 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		EAFC063C17ABA3EA007F4122 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		EAFC063D17ABA3EA007F4122 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EAFC063F17ABA3EA007F4122 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		EAFC064117ABA3EA007F4122 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		EAFC064817ABA3EA007F4122 /* pointdetectorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pointdetectorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFC064917ABA3EA007F4122 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EAFC065117ABA3EA007F4122 /* pointdetectorTests-Info.plist */ = {isa = PBXFileReference; path = "pointdetectorTests-Info.plist"; sourceTree = "<group>"; };
+		EAFC065317ABA3EA007F4122 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAFC065517ABA3EA007F4122 /* pointdetectorTests.h */ = {isa = PBXFileReference; path = pointdetectorTests.h; sourceTree = "<group>"; };
+		EAFC065617ABA3EA007F4122 /* pointdetectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pointdetectorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAFC061617ABA3EA007F4122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFC061E17ABA3EA007F4122 /* UIKit.framework in Frameworks */,
+				EAFC062017ABA3EA007F4122 /* Foundation.framework in Frameworks */,
+				EAFC062217ABA3EA007F4122 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFC064417ABA3EA007F4122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFC064A17ABA3EA007F4122 /* SenTestingKit.framework in Frameworks */,
+				EAFC064B17ABA3EA007F4122 /* UIKit.framework in Frameworks */,
+				EAFC064C17ABA3EA007F4122 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAFC060E17ABA3E9007F4122 = {
+			isa = PBXGroup;
+			children = (
+				EAFC062317ABA3EA007F4122 /* pointdetector */,
+				EAFC064F17ABA3EA007F4122 /* pointdetectorTests */,
+				EAFC061C17ABA3EA007F4122 /* Frameworks */,
+				EAFC061A17ABA3EA007F4122 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAFC061A17ABA3EA007F4122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAFC061917ABA3EA007F4122 /* pointdetector.app */,
+				EAFC064817ABA3EA007F4122 /* pointdetectorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAFC061C17ABA3EA007F4122 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAFC061D17ABA3EA007F4122 /* UIKit.framework */,
+				EAFC061F17ABA3EA007F4122 /* Foundation.framework */,
+				EAFC062117ABA3EA007F4122 /* CoreGraphics.framework */,
+				EAFC064917ABA3EA007F4122 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAFC062317ABA3EA007F4122 /* pointdetector */ = {
+			isa = PBXGroup;
+			children = (
+				EAFC062C17ABA3EA007F4122 /* AppDelegate.h */,
+				EAFC062D17ABA3EA007F4122 /* AppDelegate.m */,
+				EAFC062F17ABA3EA007F4122 /* MainStoryboard_iPhone.storyboard */,
+				EAFC063217ABA3EA007F4122 /* MainStoryboard_iPad.storyboard */,
+				EAFC063517ABA3EA007F4122 /* FirstViewController.h */,
+				EAFC063617ABA3EA007F4122 /* FirstViewController.m */,
+				EAFC063817ABA3EA007F4122 /* first.png */,
+				EAFC063A17ABA3EA007F4122 /* first@2x.png */,
+				EAFC063C17ABA3EA007F4122 /* SecondViewController.h */,
+				EAFC063D17ABA3EA007F4122 /* SecondViewController.m */,
+				EAFC063F17ABA3EA007F4122 /* second.png */,
+				EAFC064117ABA3EA007F4122 /* second@2x.png */,
+				EAFC062417ABA3EA007F4122 /* Supporting Files */,
+			);
+			path = pointdetector;
+			sourceTree = "<group>";
+		};
+		EAFC062417ABA3EA007F4122 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAFC062517ABA3EA007F4122 /* pointdetector-Info.plist */,
+				EAFC062617ABA3EA007F4122 /* InfoPlist.strings */,
+				EAFC062917ABA3EA007F4122 /* main.m */,
+				EAFC062B17ABA3EA007F4122 /* pointdetector-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAFC064F17ABA3EA007F4122 /* pointdetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAFC065517ABA3EA007F4122 /* pointdetectorTests.h */,
+				EAFC065617ABA3EA007F4122 /* pointdetectorTests.m */,
+				EAFC065017ABA3EA007F4122 /* Supporting Files */,
+			);
+			path = pointdetectorTests;
+			sourceTree = "<group>";
+		};
+		EAFC065017ABA3EA007F4122 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAFC065117ABA3EA007F4122 /* pointdetectorTests-Info.plist */,
+				EAFC065217ABA3EA007F4122 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAFC061817ABA3EA007F4122 /* pointdetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAFC065A17ABA3EA007F4122 /* Build configuration list for PBXNativeTarget "pointdetector" */;
+			buildPhases = (
+				EAFC061517ABA3EA007F4122 /* Sources */,
+				EAFC061617ABA3EA007F4122 /* Frameworks */,
+				EAFC061717ABA3EA007F4122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pointdetector;
+			productName = pointdetector;
+			productReference = EAFC061917ABA3EA007F4122 /* pointdetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAFC064717ABA3EA007F4122 /* pointdetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAFC065D17ABA3EA007F4122 /* Build configuration list for PBXNativeTarget "pointdetectorTests" */;
+			buildPhases = (
+				EAFC064317ABA3EA007F4122 /* Sources */,
+				EAFC064417ABA3EA007F4122 /* Frameworks */,
+				EAFC064517ABA3EA007F4122 /* Resources */,
+				EAFC064617ABA3EA007F4122 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAFC064E17ABA3EA007F4122 /* PBXTargetDependency */,
+			);
+			name = pointdetectorTests;
+			productName = pointdetectorTests;
+			productReference = EAFC064817ABA3EA007F4122 /* pointdetectorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAFC061017ABA3E9007F4122 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = EAFC061317ABA3E9007F4122 /* Build configuration list for PBXProject "pointdetector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EAFC060E17ABA3E9007F4122;
+			productRefGroup = EAFC061A17ABA3EA007F4122 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAFC061817ABA3EA007F4122 /* pointdetector */,
+				EAFC064717ABA3EA007F4122 /* pointdetectorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAFC061717ABA3EA007F4122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFC062817ABA3EA007F4122 /* InfoPlist.strings in Resources */,
+				EAFC063117ABA3EA007F4122 /* MainStoryboard_iPhone.storyboard in Resources */,
+				EAFC063417ABA3EA007F4122 /* MainStoryboard_iPad.storyboard in Resources */,
+				EAFC063917ABA3EA007F4122 /* first.png in Resources */,
+				EAFC063B17ABA3EA007F4122 /* first@2x.png in Resources */,
+				EAFC064017ABA3EA007F4122 /* second.png in Resources */,
+				EAFC064217ABA3EA007F4122 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFC064517ABA3EA007F4122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFC065417ABA3EA007F4122 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EAFC064617ABA3EA007F4122 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAFC061517ABA3EA007F4122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFC062A17ABA3EA007F4122 /* main.m in Sources */,
+				EAFC062E17ABA3EA007F4122 /* AppDelegate.m in Sources */,
+				EAFC063717ABA3EA007F4122 /* FirstViewController.m in Sources */,
+				EAFC063E17ABA3EA007F4122 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFC064317ABA3EA007F4122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFC065717ABA3EA007F4122 /* pointdetectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAFC064E17ABA3EA007F4122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAFC061817ABA3EA007F4122 /* pointdetector */;
+			targetProxy = EAFC064D17ABA3EA007F4122 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAFC062617ABA3EA007F4122 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAFC062717ABA3EA007F4122 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EAFC062F17ABA3EA007F4122 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAFC063017ABA3EA007F4122 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EAFC063217ABA3EA007F4122 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAFC063317ABA3EA007F4122 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EAFC065217ABA3EA007F4122 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAFC065317ABA3EA007F4122 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAFC065817ABA3EA007F4122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAFC065917ABA3EA007F4122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAFC065B17ABA3EA007F4122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pointdetector/pointdetector-Prefix.pch";
+				INFOPLIST_FILE = "pointdetector/pointdetector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EAFC065C17ABA3EA007F4122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pointdetector/pointdetector-Prefix.pch";
+				INFOPLIST_FILE = "pointdetector/pointdetector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EAFC065E17ABA3EA007F4122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pointdetector.app/pointdetector";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pointdetector/pointdetector-Prefix.pch";
+				INFOPLIST_FILE = "pointdetectorTests/pointdetectorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EAFC065F17ABA3EA007F4122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pointdetector.app/pointdetector";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pointdetector/pointdetector-Prefix.pch";
+				INFOPLIST_FILE = "pointdetectorTests/pointdetectorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAFC061317ABA3E9007F4122 /* Build configuration list for PBXProject "pointdetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFC065817ABA3EA007F4122 /* Debug */,
+				EAFC065917ABA3EA007F4122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAFC065A17ABA3EA007F4122 /* Build configuration list for PBXNativeTarget "pointdetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFC065B17ABA3EA007F4122 /* Debug */,
+				EAFC065C17ABA3EA007F4122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAFC065D17ABA3EA007F4122 /* Build configuration list for PBXNativeTarget "pointdetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFC065E17ABA3EA007F4122 /* Debug */,
+				EAFC065F17ABA3EA007F4122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAFC061017ABA3E9007F4122 /* Project object */;
+}
