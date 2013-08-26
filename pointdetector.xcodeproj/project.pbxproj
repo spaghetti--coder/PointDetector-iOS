@@ -7,9 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA3F245B17AF2D00005232D8 /* Coords.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3F245A17AF2D00005232D8 /* Coords.m */; };
+		EA3F245D17AF315B005232D8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3F245C17AF315B005232D8 /* CoreLocation.framework */; };
+		EA3F245F17AF3169005232D8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3F245E17AF3169005232D8 /* AVFoundation.framework */; };
+		EA3F246117AF4951005232D8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3F246017AF4951005232D8 /* QuartzCore.framework */; };
+		EA4E4A9517B0807B00617FBB /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4E4A9417B0807B00617FBB /* Message.m */; };
+		EA4E4A9817B0893F00617FBB /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4E4A9717B0893F00617FBB /* UserInfo.m */; };
+		EA4E4A9B17B0A5C000617FBB /* LoginAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4E4A9A17B0A5C000617FBB /* LoginAuth.m */; };
+		EA5FD54317B34EB5003AEA4B /* pd_rabbit_found.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5FD54217B34EB5003AEA4B /* pd_rabbit_found.png */; };
+		EA5FD54D17B34ED8003AEA4B /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5FD54517B34ED8003AEA4B /* icon-72.png */; };
+		EA5FD54E17B34ED8003AEA4B /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5FD54617B34ED8003AEA4B /* icon-72@2x.png */; };
+		EA5FD54F17B34ED8003AEA4B /* icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5FD54717B34ED8003AEA4B /* icon-Small-50.png */; };
+		EA5FD55017B34ED8003AEA4B /* icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5FD54817B34ED8003AEA4B /* icon-Small-50@2x.png */; };
+		EA5FD55117B34ED8003AEA4B /* icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5FD54917B34ED8003AEA4B /* icon-Small.png */; };
+		EA5FD55217B34ED8003AEA4B /* icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5FD54A17B34ED8003AEA4B /* icon-Small@2x.png */; };
+		EA5FD55317B34ED8003AEA4B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5FD54B17B34ED8003AEA4B /* icon.png */; };
+		EA5FD55417B34ED8003AEA4B /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA5FD54C17B34ED8003AEA4B /* icon@2x.png */; };
+		EA5FD55717B355E6003AEA4B /* UserPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5FD55617B355E6003AEA4B /* UserPoint.m */; };
+		EA5FD55917B365C2003AEA4B /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5FD55817B365C1003AEA4B /* Accounts.framework */; };
+		EA5FD55B17B365F3003AEA4B /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5FD55A17B365F3003AEA4B /* Twitter.framework */; };
+		EA5FD56117B387D2003AEA4B /* AlertViewWithBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5FD56017B387D0003AEA4B /* AlertViewWithBlock.m */; };
+		EA9029C417B1D0A0000C9ABA /* TargetPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9029C317B1D0A0000C9ABA /* TargetPoint.m */; };
+		EA9029CB17B20A12000C9ABA /* PointDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9029CA17B20A12000C9ABA /* PointDetail.m */; };
 		EAFC061E17ABA3EA007F4122 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC061D17ABA3EA007F4122 /* UIKit.framework */; };
 		EAFC062017ABA3EA007F4122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC061F17ABA3EA007F4122 /* Foundation.framework */; };
-		EAFC062217ABA3EA007F4122 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC062117ABA3EA007F4122 /* CoreGraphics.framework */; };
 		EAFC062817ABA3EA007F4122 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAFC062617ABA3EA007F4122 /* InfoPlist.strings */; };
 		EAFC062A17ABA3EA007F4122 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFC062917ABA3EA007F4122 /* main.m */; };
 		EAFC062E17ABA3EA007F4122 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFC062D17ABA3EA007F4122 /* AppDelegate.m */; };
@@ -39,31 +60,63 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA3F245817AF2CD4005232D8 /* Coords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coords.h; sourceTree = "<group>"; };
+		EA3F245A17AF2D00005232D8 /* Coords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coords.m; sourceTree = "<group>"; };
+		EA3F245C17AF315B005232D8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EA3F245E17AF3169005232D8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EA3F246017AF4951005232D8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EA4E4A9317B0805800617FBB /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		EA4E4A9417B0807B00617FBB /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		EA4E4A9617B0893F00617FBB /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		EA4E4A9717B0893F00617FBB /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		EA4E4A9917B0A5C000617FBB /* LoginAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginAuth.h; sourceTree = "<group>"; };
+		EA4E4A9A17B0A5C000617FBB /* LoginAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginAuth.m; sourceTree = "<group>"; };
+		EA54B2F517B4839100C034E0 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ja; path = ja.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		EA54B2F617B483AD00C034E0 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ja; path = ja.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		EA5FD54217B34EB5003AEA4B /* pd_rabbit_found.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pd_rabbit_found.png; sourceTree = "<group>"; };
+		EA5FD54517B34ED8003AEA4B /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		EA5FD54617B34ED8003AEA4B /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
+		EA5FD54717B34ED8003AEA4B /* icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-Small-50.png"; sourceTree = "<group>"; };
+		EA5FD54817B34ED8003AEA4B /* icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		EA5FD54917B34ED8003AEA4B /* icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-Small.png"; sourceTree = "<group>"; };
+		EA5FD54A17B34ED8003AEA4B /* icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-Small@2x.png"; sourceTree = "<group>"; };
+		EA5FD54B17B34ED8003AEA4B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		EA5FD54C17B34ED8003AEA4B /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		EA5FD55517B355E5003AEA4B /* UserPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPoint.h; sourceTree = "<group>"; };
+		EA5FD55617B355E6003AEA4B /* UserPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPoint.m; sourceTree = "<group>"; };
+		EA5FD55817B365C1003AEA4B /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		EA5FD55A17B365F3003AEA4B /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		EA5FD55F17B387CD003AEA4B /* AlertViewWithBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewWithBlock.h; sourceTree = "<group>"; };
+		EA5FD56017B387D0003AEA4B /* AlertViewWithBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewWithBlock.m; sourceTree = "<group>"; };
+		EA9029C217B1D0A0000C9ABA /* TargetPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetPoint.h; sourceTree = "<group>"; };
+		EA9029C317B1D0A0000C9ABA /* TargetPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetPoint.m; sourceTree = "<group>"; };
+		EA9029C917B20A12000C9ABA /* PointDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointDetail.h; sourceTree = "<group>"; };
+		EA9029CA17B20A12000C9ABA /* PointDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointDetail.m; sourceTree = "<group>"; };
 		EAFC061917ABA3EA007F4122 /* pointdetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pointdetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFC061D17ABA3EA007F4122 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EAFC061F17ABA3EA007F4122 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EAFC062117ABA3EA007F4122 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EAFC062517ABA3EA007F4122 /* pointdetector-Info.plist */ = {isa = PBXFileReference; path = "pointdetector-Info.plist"; sourceTree = "<group>"; };
+		EAFC062517ABA3EA007F4122 /* pointdetector-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pointdetector-Info.plist"; sourceTree = "<group>"; };
 		EAFC062717ABA3EA007F4122 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EAFC062917ABA3EA007F4122 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EAFC062B17ABA3EA007F4122 /* pointdetector-Prefix.pch */ = {isa = PBXFileReference; path = "pointdetector-Prefix.pch"; sourceTree = "<group>"; };
-		EAFC062C17ABA3EA007F4122 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAFC062B17ABA3EA007F4122 /* pointdetector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pointdetector-Prefix.pch"; sourceTree = "<group>"; };
+		EAFC062C17ABA3EA007F4122 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EAFC062D17ABA3EA007F4122 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EAFC063017ABA3EA007F4122 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		EAFC063317ABA3EA007F4122 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		EAFC063517ABA3EA007F4122 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		EAFC063517ABA3EA007F4122 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		EAFC063617ABA3EA007F4122 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		EAFC063817ABA3EA007F4122 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		EAFC063A17ABA3EA007F4122 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		EAFC063C17ABA3EA007F4122 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		EAFC063C17ABA3EA007F4122 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		EAFC063D17ABA3EA007F4122 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		EAFC063F17ABA3EA007F4122 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		EAFC064117ABA3EA007F4122 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		EAFC064817ABA3EA007F4122 /* pointdetectorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pointdetectorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFC064917ABA3EA007F4122 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		EAFC065117ABA3EA007F4122 /* pointdetectorTests-Info.plist */ = {isa = PBXFileReference; path = "pointdetectorTests-Info.plist"; sourceTree = "<group>"; };
+		EAFC065117ABA3EA007F4122 /* pointdetectorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pointdetectorTests-Info.plist"; sourceTree = "<group>"; };
 		EAFC065317ABA3EA007F4122 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EAFC065517ABA3EA007F4122 /* pointdetectorTests.h */ = {isa = PBXFileReference; path = pointdetectorTests.h; sourceTree = "<group>"; };
+		EAFC065517ABA3EA007F4122 /* pointdetectorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pointdetectorTests.h; sourceTree = "<group>"; };
 		EAFC065617ABA3EA007F4122 /* pointdetectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pointdetectorTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,9 +125,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA5FD55B17B365F3003AEA4B /* Twitter.framework in Frameworks */,
+				EA5FD55917B365C2003AEA4B /* Accounts.framework in Frameworks */,
+				EA3F246117AF4951005232D8 /* QuartzCore.framework in Frameworks */,
+				EA3F245F17AF3169005232D8 /* AVFoundation.framework in Frameworks */,
+				EA3F245D17AF315B005232D8 /* CoreLocation.framework in Frameworks */,
 				EAFC061E17ABA3EA007F4122 /* UIKit.framework in Frameworks */,
 				EAFC062017ABA3EA007F4122 /* Foundation.framework in Frameworks */,
-				EAFC062217ABA3EA007F4122 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +170,11 @@
 		EAFC061C17ABA3EA007F4122 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EA5FD55A17B365F3003AEA4B /* Twitter.framework */,
+				EA5FD55817B365C1003AEA4B /* Accounts.framework */,
+				EA3F246017AF4951005232D8 /* QuartzCore.framework */,
+				EA3F245E17AF3169005232D8 /* AVFoundation.framework */,
+				EA3F245C17AF315B005232D8 /* CoreLocation.framework */,
 				EAFC061D17ABA3EA007F4122 /* UIKit.framework */,
 				EAFC061F17ABA3EA007F4122 /* Foundation.framework */,
 				EAFC062117ABA3EA007F4122 /* CoreGraphics.framework */,
@@ -126,6 +188,8 @@
 			children = (
 				EAFC062C17ABA3EA007F4122 /* AppDelegate.h */,
 				EAFC062D17ABA3EA007F4122 /* AppDelegate.m */,
+				EA3F245817AF2CD4005232D8 /* Coords.h */,
+				EA3F245A17AF2D00005232D8 /* Coords.m */,
 				EAFC062F17ABA3EA007F4122 /* MainStoryboard_iPhone.storyboard */,
 				EAFC063217ABA3EA007F4122 /* MainStoryboard_iPad.storyboard */,
 				EAFC063517ABA3EA007F4122 /* FirstViewController.h */,
@@ -136,6 +200,20 @@
 				EAFC063D17ABA3EA007F4122 /* SecondViewController.m */,
 				EAFC063F17ABA3EA007F4122 /* second.png */,
 				EAFC064117ABA3EA007F4122 /* second@2x.png */,
+				EA4E4A9917B0A5C000617FBB /* LoginAuth.h */,
+				EA4E4A9A17B0A5C000617FBB /* LoginAuth.m */,
+				EA4E4A9317B0805800617FBB /* Message.h */,
+				EA4E4A9417B0807B00617FBB /* Message.m */,
+				EA5FD55F17B387CD003AEA4B /* AlertViewWithBlock.h */,
+				EA5FD56017B387D0003AEA4B /* AlertViewWithBlock.m */,
+				EA9029C217B1D0A0000C9ABA /* TargetPoint.h */,
+				EA9029C317B1D0A0000C9ABA /* TargetPoint.m */,
+				EA9029C917B20A12000C9ABA /* PointDetail.h */,
+				EA9029CA17B20A12000C9ABA /* PointDetail.m */,
+				EA4E4A9617B0893F00617FBB /* UserInfo.h */,
+				EA4E4A9717B0893F00617FBB /* UserInfo.m */,
+				EA5FD55517B355E5003AEA4B /* UserPoint.h */,
+				EA5FD55617B355E6003AEA4B /* UserPoint.m */,
 				EAFC062417ABA3EA007F4122 /* Supporting Files */,
 			);
 			path = pointdetector;
@@ -144,6 +222,15 @@
 		EAFC062417ABA3EA007F4122 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EA5FD54517B34ED8003AEA4B /* icon-72.png */,
+				EA5FD54617B34ED8003AEA4B /* icon-72@2x.png */,
+				EA5FD54717B34ED8003AEA4B /* icon-Small-50.png */,
+				EA5FD54817B34ED8003AEA4B /* icon-Small-50@2x.png */,
+				EA5FD54917B34ED8003AEA4B /* icon-Small.png */,
+				EA5FD54A17B34ED8003AEA4B /* icon-Small@2x.png */,
+				EA5FD54B17B34ED8003AEA4B /* icon.png */,
+				EA5FD54C17B34ED8003AEA4B /* icon@2x.png */,
+				EA5FD54217B34EB5003AEA4B /* pd_rabbit_found.png */,
 				EAFC062517ABA3EA007F4122 /* pointdetector-Info.plist */,
 				EAFC062617ABA3EA007F4122 /* InfoPlist.strings */,
 				EAFC062917ABA3EA007F4122 /* main.m */,
@@ -224,6 +311,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ja,
 			);
 			mainGroup = EAFC060E17ABA3E9007F4122;
 			productRefGroup = EAFC061A17ABA3EA007F4122 /* Products */;
@@ -248,6 +336,15 @@
 				EAFC063B17ABA3EA007F4122 /* first@2x.png in Resources */,
 				EAFC064017ABA3EA007F4122 /* second.png in Resources */,
 				EAFC064217ABA3EA007F4122 /* second@2x.png in Resources */,
+				EA5FD54317B34EB5003AEA4B /* pd_rabbit_found.png in Resources */,
+				EA5FD54D17B34ED8003AEA4B /* icon-72.png in Resources */,
+				EA5FD54E17B34ED8003AEA4B /* icon-72@2x.png in Resources */,
+				EA5FD54F17B34ED8003AEA4B /* icon-Small-50.png in Resources */,
+				EA5FD55017B34ED8003AEA4B /* icon-Small-50@2x.png in Resources */,
+				EA5FD55117B34ED8003AEA4B /* icon-Small.png in Resources */,
+				EA5FD55217B34ED8003AEA4B /* icon-Small@2x.png in Resources */,
+				EA5FD55317B34ED8003AEA4B /* icon.png in Resources */,
+				EA5FD55417B34ED8003AEA4B /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +383,14 @@
 				EAFC062E17ABA3EA007F4122 /* AppDelegate.m in Sources */,
 				EAFC063717ABA3EA007F4122 /* FirstViewController.m in Sources */,
 				EAFC063E17ABA3EA007F4122 /* SecondViewController.m in Sources */,
+				EA3F245B17AF2D00005232D8 /* Coords.m in Sources */,
+				EA4E4A9517B0807B00617FBB /* Message.m in Sources */,
+				EA4E4A9817B0893F00617FBB /* UserInfo.m in Sources */,
+				EA4E4A9B17B0A5C000617FBB /* LoginAuth.m in Sources */,
+				EA9029C417B1D0A0000C9ABA /* TargetPoint.m in Sources */,
+				EA9029CB17B20A12000C9ABA /* PointDetail.m in Sources */,
+				EA5FD55717B355E6003AEA4B /* UserPoint.m in Sources */,
+				EA5FD56117B387D2003AEA4B /* AlertViewWithBlock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +425,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				EAFC063017ABA3EA007F4122 /* en */,
+				EA54B2F517B4839100C034E0 /* ja */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
@@ -328,6 +434,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				EAFC063317ABA3EA007F4122 /* en */,
+				EA54B2F617B483AD00C034E0 /* ja */,
 			);
 			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
@@ -465,6 +572,7 @@
 				EAFC065C17ABA3EA007F4122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAFC065D17ABA3EA007F4122 /* Build configuration list for PBXNativeTarget "pointdetectorTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +581,7 @@
 				EAFC065F17ABA3EA007F4122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
