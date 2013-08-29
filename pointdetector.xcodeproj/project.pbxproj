@@ -47,6 +47,7 @@
 		EAFC064C17ABA3EA007F4122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC061F17ABA3EA007F4122 /* Foundation.framework */; };
 		EAFC065417ABA3EA007F4122 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAFC065217ABA3EA007F4122 /* InfoPlist.strings */; };
 		EAFC065717ABA3EA007F4122 /* pointdetectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFC065617ABA3EA007F4122 /* pointdetectorTests.m */; };
+		EAFD8C8617CF06FC0015048F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAFD8C8517CF06FC0015048F /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +119,7 @@
 		EAFC065317ABA3EA007F4122 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EAFC065517ABA3EA007F4122 /* pointdetectorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pointdetectorTests.h; sourceTree = "<group>"; };
 		EAFC065617ABA3EA007F4122 /* pointdetectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pointdetectorTests.m; sourceTree = "<group>"; };
+		EAFD8C8517CF06FC0015048F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 		EAFC060E17ABA3E9007F4122 = {
 			isa = PBXGroup;
 			children = (
+				EAFD8C8517CF06FC0015048F /* Default-568h@2x.png */,
 				EAFC062317ABA3EA007F4122 /* pointdetector */,
 				EAFC064F17ABA3EA007F4122 /* pointdetectorTests */,
 				EAFC061C17ABA3EA007F4122 /* Frameworks */,
@@ -303,7 +306,7 @@
 		EAFC061017ABA3E9007F4122 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0500;
 			};
 			buildConfigurationList = EAFC061317ABA3E9007F4122 /* Build configuration list for PBXProject "pointdetector" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -337,6 +340,7 @@
 				EAFC064017ABA3EA007F4122 /* second.png in Resources */,
 				EAFC064217ABA3EA007F4122 /* second@2x.png in Resources */,
 				EA5FD54317B34EB5003AEA4B /* pd_rabbit_found.png in Resources */,
+				EAFD8C8617CF06FC0015048F /* Default-568h@2x.png in Resources */,
 				EA5FD54D17B34ED8003AEA4B /* icon-72.png in Resources */,
 				EA5FD54E17B34ED8003AEA4B /* icon-72@2x.png in Resources */,
 				EA5FD54F17B34ED8003AEA4B /* icon-Small-50.png in Resources */,
@@ -454,8 +458,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -469,8 +478,12 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -480,14 +493,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
