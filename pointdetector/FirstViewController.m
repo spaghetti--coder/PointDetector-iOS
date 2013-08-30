@@ -410,8 +410,6 @@
     // 目標地点までの距離を計算
     double dist = [Coords calcDistHubeny:GRS80 latitudeFrom:latitude longitudeFrom:longitude latitudeTo:targetLatitude longitudeTo:targetLongitude];
     NSString *distLabel = [NSString stringWithFormat:@"%.1fm", dist];
-//    NSLog(@"targetlat:%f / targetlng:%f", targetLatitude, targetLongitude);
-//    NSLog(@"dist:%f / distlabel:%@", dist, distLabel);
     if (dist > 1000.0) {
         
         distLabel = [NSString stringWithFormat:@"%.1fkm", (dist / 1000.0)];
