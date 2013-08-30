@@ -138,7 +138,7 @@
     } else {
         
         message.result = NO;
-        message.message = @"ユーザー地点送信結果を取得できませんでした。";
+        message.message = @"ユーザー地点の送信結果を取得できませんでした。";
         [self userPointsFailure];
         
     }
