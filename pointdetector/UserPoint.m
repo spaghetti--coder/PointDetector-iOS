@@ -110,10 +110,6 @@
     }
     sending = YES;
     
-    // 受信した内容を文字列に変換し、コンソールに出力する
-//    NSString *output = [[NSString alloc] initWithData:receivedData encoding:NSUTF8StringEncoding];
-//    NSLog(@"Output: %@", output);
-    
     NSData *jsonData = receivedData;
     NSError *error = nil;
     
