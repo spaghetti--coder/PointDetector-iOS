@@ -88,8 +88,6 @@
         cachePolicy:NSURLRequestReloadIgnoringCacheData
         timeoutInterval:HTTP_TIMEOUT];
     
-//- (id)initWithRequest:(NSURLRequest *)request delegate:(id)delegate startImmediately:(BOOL)startImmediately NS_AVAILABLE(10_5, 2_0);
-    
     // POST の HTTP Request を作成
     [req setHTTPMethod:@"POST"];
     [req setValue:@"application/x-www-form-urlencoded"                 forHTTPHeaderField:@"Content-Type"];
