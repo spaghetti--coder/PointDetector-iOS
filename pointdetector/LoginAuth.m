@@ -95,7 +95,7 @@
     [req setHTTPBody:httpBody];
     [req setHTTPShouldHandleCookies:YES];
     
-    // POST 送信
+    // POSTで 送信
     NSLog(@"sending [%@] (%d bytes) to %@ ...", bodyString, [httpBody length], url);
     self.connection = [[NSURLConnection alloc] initWithRequest:req delegate:self];
     self.receivedData = [[NSMutableData alloc] init];
