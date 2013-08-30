@@ -130,14 +130,6 @@ int mode = TP_NONE;
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setObject:targetPoints forKey:@"targetPoints"];
     
-//    UIAlertView *alertView = [[UIAlertView alloc]
-//                              initWithTitle:@"目標地点一覧更新成功"
-//                              message:@"目標地点一覧を更新いたしました。"
-//                              delegate:self
-//                              cancelButtonTitle:nil
-//                              otherButtonTitles:@"OK", nil];
-//    [alertView performSelectorOnMainThread:@selector(show) withObject:nil waitUntilDone:YES];
-    
     // 初回ログインであれば、設定地点情報も反映させる
     if (isFirstLogin) {
         
