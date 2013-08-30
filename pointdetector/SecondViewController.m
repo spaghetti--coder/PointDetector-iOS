@@ -391,11 +391,6 @@
             [targetPicker selectRow:(pointID - 1) inComponent:0 animated:YES];
         }
         
-//        CGAffineTransform t0 = CGAffineTransformMakeTranslation(targetPicker.bounds.size.width/2, targetPicker.bounds.size.height/2);
-//        CGAffineTransform s0 = CGAffineTransformMakeScale(0.5, 0.5);
-//        CGAffineTransform t1 = CGAffineTransformMakeTranslation(-targetPicker.bounds.size.width/2, -targetPicker.bounds.size.height/2);
-//        targetPicker.transform = CGAffineTransformConcat(t0, CGAffineTransformConcat(s0, t1));
-        
         [self.view addSubview:targetPicker];
         
     // 既に用意されているのであれば、再び前面に表示する 
