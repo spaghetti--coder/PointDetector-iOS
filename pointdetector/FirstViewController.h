@@ -20,7 +20,7 @@
 
 #define SERVER "http://www15052ui.sakura.ne.jp/"
 #define SAMPLING 5 // フレームレートのサンプリング数値
-#define FOUNDDISTANCE 10.0 // 発見したことを通知する距離
+#define FOUNDDISTANCE 3.0 // 発見したことを通知する距離
 
 @interface FirstViewController : UIViewController <CLLocationManagerDelegate> {
     
