@@ -11,6 +11,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import <Accounts/Accounts.h>
 #import <Twitter/Twitter.h>
+#import <MapKit/MapKit.h>
 #import <time.h>
 #import "TargetConditionals.h"
 #import "AlertViewWithBlock.h"
@@ -19,7 +20,7 @@
 
 #define SERVER "http://www15052ui.sakura.ne.jp/"
 #define SAMPLING 5 // フレームレートのサンプリング数値
-#define FOUNDDISTANCE 3.0 // 発見したことを通知する距離
+#define FOUNDDISTANCE 10.0 // 発見したことを通知する距離
 
 @interface FirstViewController : UIViewController <CLLocationManagerDelegate> {
     
@@ -45,6 +46,8 @@
     
 }
 
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
+
 @property (weak, nonatomic) IBOutlet UILabel *label_status;
 @property (weak, nonatomic) IBOutlet UILabel *label_fps;
 @property (weak, nonatomic) IBOutlet UILabel *label_latitude;
@@ -65,10 +68,10 @@
 @property (nonatomic, strong) NSArray *twitterAccounts;
 @property (nonatomic, copy) NSString *tweetMessage;
 
-@property (strong, nonatomic) AVCaptureDeviceInput *videoInput;
-@property (strong, nonatomic) AVCaptureStillImageOutput *stillImageOutput;
-@property (strong, nonatomic) AVCaptureSession *session;
-@property (strong, nonatomic) UIView *previewView;
+@property (nonatomic, strong) AVCaptureSession* captureSession;
+@property (nonatomic, strong) AVCaptureStillImageOutput* imageOutput;
+@property (nonatomic, strong) AVCaptureVideoPreviewLayer* previewLayer;
+@property (nonatomic) BOOL adjustingExposure;
 
 - (void) startLocationManager;
 - (void) stopLocationManager;

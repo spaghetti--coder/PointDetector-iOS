@@ -446,6 +446,8 @@
     [defaults setDouble:latitude forKey:@"pointLatitude"];
     [defaults setDouble:longitude forKey:@"pointLongitude"];
     
+    NSLog(@"[setTargetPoint]%f,%f", latitude, longitude);
+    
 }
 
 /* ----------------------------------

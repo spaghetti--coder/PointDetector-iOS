@@ -15,18 +15,33 @@
     [super setUp];
     
     // Set-up code here.
+    test_subject = [[TargetPoint alloc] init]; // not write retain because using ARC
+    defaults = [NSUserDefaults standardUserDefaults];
 }
 
 - (void)tearDown
 {
     // Tear-down code here.
-    
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testNSUserDefaults
 {
-    STFail(@"Unit tests are not implemented yet in pointdetectorTests");
+    
+    float targetLat = [defaults floatForKey:@"pointLatitude"];
+    float targetLng = [defaults floatForKey:@"pointLongitude"];
+    
+    if (!targetLat) {
+        STFail(@"目標地点の緯度が未保存");
+    }
+    if (!targetLng) {
+        STFail(@"目標地点の経度が未保存");
+    }
+    
+    if (targetLat == targetLng) {
+        STFail(@"緯度と経度が同じ値");
+    }
+    
 }
 
 @end

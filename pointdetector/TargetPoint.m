@@ -170,6 +170,8 @@ int mode = TP_NONE;
                 [defaults setDouble:pd.latitude forKey:@"pointLatitude"];
                 [defaults setDouble:pd.longitude forKey:@"pointLongitude"];
                 
+                NSLog(@"[targetPointsSuccessGetting]%@[%f,%f]", pd.pointName, pd.latitude, pd.longitude);
+                
             }
             
         }

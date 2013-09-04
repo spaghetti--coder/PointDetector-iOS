@@ -9,6 +9,7 @@
 #import "FirstViewController.h"
 
 @implementation FirstViewController
+
 @synthesize label_status;
 @synthesize label_fps;
 @synthesize label_latitude;
@@ -29,10 +30,10 @@
 @synthesize twitterAccounts;
 @synthesize tweetMessage;
 
-@synthesize videoInput;
-@synthesize stillImageOutput;
-@synthesize session;
-@synthesize previewView;
+@synthesize captureSession;
+@synthesize imageOutput;
+@synthesize previewLayer;
+@synthesize adjustingExposure;
 
 // メモリリーク時
 - (void)didReceiveMemoryWarning
@@ -168,9 +169,14 @@
     
 #if TARGET_IPHONE_SIMULATOR
     // シミュレーター上でのみ実行される処理
+    
+    // 現在地の地図を最背面に表示する
+    _mapView.hidden = NO;
+    [self.view sendSubviewToBack:_mapView];
+    
     // カメラプレビューの部分は真っ白に塗りつぶしておく
-    UIColor *color = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0];
-    self.view.backgroundColor=color;
+//    UIColor *color = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0];
+//    self.view.backgroundColor=color;
     
 #else
     // 実機でのみ実行される処理
@@ -181,42 +187,100 @@
          * カメラプレビュー関連
          * _/_/_/_/_/_/_/_/_/_/ */
         
-        // 入力と出力からキャプチャーセッションを作成
-        self.session = [[AVCaptureSession alloc] init];
+        self.captureSession = [[AVCaptureSession alloc] init];
+        AVCaptureDevice* videoCaptureDevice =
+        [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
+        NSError* error = nil;
+        AVCaptureDeviceInput* videoInput =
+        [AVCaptureDeviceInput deviceInputWithDevice:videoCaptureDevice
+                                              error:&error];
         
-        // 正面に配置されているカメラを取得
-        AVCaptureDevice *camera = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
-        
-        // カメラからの入力を作成し、セッションに追加
-        self.videoInput = [[AVCaptureDeviceInput alloc] initWithDevice:camera error:NULL];
-        [self.session addInput:self.videoInput];
-        
-        // 画像への出力を作成し、セッションに追加
-        self.stillImageOutput = [[AVCaptureStillImageOutput alloc] init];
-        [self.session addOutput:self.stillImageOutput];
-        
-        // キャプチャーセッションから入力のプレビュー表示を作成
-        AVCaptureVideoPreviewLayer *captureVideoPreviewLayer = [[AVCaptureVideoPreviewLayer alloc] initWithSession:self.session];
-        captureVideoPreviewLayer.frame = self.view.bounds;
-        captureVideoPreviewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
-        
-        // レイヤーをViewの最背面に設定
-        CALayer *previewLayer = self.previewView.layer;
-        previewLayer.masksToBounds = YES;
-        [previewLayer addSublayer:captureVideoPreviewLayer];
+        if (videoInput) {
+            
+            [self.captureSession addInput:videoInput];
+            [self.captureSession beginConfiguration];
+            self.captureSession.sessionPreset = AVCaptureSessionPresetPhoto;
+            [self.captureSession commitConfiguration];
+            
+            NSError* error = nil;
+            
+            if ([videoCaptureDevice lockForConfiguration:&error]) {
+                if ([videoCaptureDevice isFocusModeSupported:AVCaptureFocusModeContinuousAutoFocus]) {
+                    videoCaptureDevice.focusMode = AVCaptureFocusModeContinuousAutoFocus;
+                    
+                } else if ([videoCaptureDevice isFocusModeSupported:AVCaptureFocusModeAutoFocus]) {
+                    videoCaptureDevice.focusMode = AVCaptureFocusModeAutoFocus;
+                }
+                
+                if ([videoCaptureDevice isExposureModeSupported:AVCaptureExposureModeContinuousAutoExposure]) {
+                    videoCaptureDevice.exposureMode = AVCaptureExposureModeContinuousAutoExposure;
+                } else if ([videoCaptureDevice isExposureModeSupported:AVCaptureExposureModeAutoExpose]) {
+                    videoCaptureDevice.exposureMode = AVCaptureExposureModeAutoExpose;
+                }
+                
+                if ([videoCaptureDevice isWhiteBalanceModeSupported:AVCaptureWhiteBalanceModeContinuousAutoWhiteBalance]) {
+                    videoCaptureDevice.whiteBalanceMode = AVCaptureWhiteBalanceModeContinuousAutoWhiteBalance;
+                } else if ([videoCaptureDevice isWhiteBalanceModeSupported:AVCaptureWhiteBalanceModeAutoWhiteBalance]) {
+                    videoCaptureDevice.whiteBalanceMode = AVCaptureWhiteBalanceModeAutoWhiteBalance;
+                }
+                
+                if ([videoCaptureDevice isFlashModeSupported:AVCaptureFlashModeAuto]) {
+                    videoCaptureDevice.flashMode = AVCaptureFlashModeAuto;
+                }
+                
+                [videoCaptureDevice unlockForConfiguration];
+                
+            } else {
+                
+                [NSException raise:@"[camera error]" format:@"%@", error];
+                
+            }
+            
+            self.imageOutput = [[AVCaptureStillImageOutput alloc] init];
+            [self.captureSession addOutput:self.imageOutput];
+            for (AVCaptureConnection* connection in self.imageOutput.connections) {
+                connection.videoOrientation = AVCaptureVideoOrientationPortrait;
+            }
+            
+            self.previewLayer =
+            [AVCaptureVideoPreviewLayer layerWithSession:self.captureSession];
+            self.previewLayer.automaticallyAdjustsMirroring = NO;
+            self.previewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
+            self.previewLayer.frame = self.view.bounds;
+            [self.view.layer insertSublayer:self.previewLayer atIndex:0];
+            
+            [self.captureSession startRunning];
+            
+        } else {
+            
+            [NSException raise:@"[camera error]" format:@"%@", error];
+            
+        }
         
     }
     @catch (NSException *exception) {
         
-        NSLog(@"%@",exception);
+        NSLog(@"%@", exception);
+        
+        // 現在位置の地図を最背面に表示する
+        _mapView.hidden = NO;
+        [self.view sendSubviewToBack:_mapView];
         
         // カメラプレビューの部分は真っ白に塗りつぶしておく
-        UIColor *color = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0];
-        self.view.backgroundColor=color;
+//        UIColor *color = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0];
+//        self.view.backgroundColor=color;
         
     }
     
 #endif
+    
+}
+
+- (void)viewWillLayoutSubviews
+{
+    
+    [super viewWillLayoutSubviews];
+    
     
 }
 
@@ -386,7 +450,7 @@
     // 未ログインであれば、ログインを促しロケーションマネージャを切断して終了
     if (!isLogined || userName == nil || loginHash == nil) {
         
-        label_status.text = [NSString stringWithFormat:@"ログインしてください"];
+        label_status.text = @"ログインしてください";
         [self stopLocationManager];
         return;
         
@@ -407,8 +471,18 @@
     label_latitude.text = [NSString stringWithFormat:@"緯度=%f", latitude];
     label_longitude.text = [NSString stringWithFormat:@"経度=%f", longitude];
     
+    // mapViewが表示されている場合、座標を取得位置に変更
+    if (_mapView.hidden == NO) {
+        
+        MKCoordinateRegion newRegion = {{latitude, longitude}, {0.01, 0.01}};
+        [_mapView setRegion:newRegion animated:YES];
+        
+    }
+    
     // 目標地点までの距離を計算
     double dist = [Coords calcDistHubeny:GRS80 latitudeFrom:latitude longitudeFrom:longitude latitudeTo:targetLatitude longitudeTo:targetLongitude];
+    NSLog(@"from:%f,%f\nto:%f,%f", latitude, longitude, targetLatitude, targetLongitude);
+    NSLog(@"distance:%f", dist);
     NSString *distLabel = [NSString stringWithFormat:@"%.1fm", dist];
     if (dist > 1000.0) {
         

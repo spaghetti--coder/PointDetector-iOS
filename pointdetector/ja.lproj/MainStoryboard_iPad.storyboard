@@ -50,6 +50,10 @@
                                 <rect key="frame" x="159" y="290" width="450" height="376"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <mapView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="8Wr-F8-hpu">
+                                <rect key="frame" x="-10" y="0.0" width="788" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -60,6 +64,7 @@
                         <outlet property="label_latitude" destination="gT9-mM-dZm" id="4cI-NS-oJi"/>
                         <outlet property="label_longitude" destination="tKJ-uT-cQX" id="icp-at-T34"/>
                         <outlet property="label_status" destination="dxs-gR-ST3" id="pax-i7-PQs"/>
+                        <outlet property="mapView" destination="8Wr-F8-hpu" id="4jW-bQ-qzh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>

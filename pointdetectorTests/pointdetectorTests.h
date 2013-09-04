@@ -7,7 +7,21 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import "AppDelegate.h"
+#import "Coords.h"
+#import "FirstViewController.h"
+#import "SecondViewController.h"
+#import "LoginAuth.h"
+#import "Message.h"
+#import "AlertViewWithBlock.h"
+#import "TargetPoint.h"
+#import "PointDetail.h"
+#import "UserInfo.h"
+#import "UserPoint.h"
 
-@interface pointdetectorTests : SenTestCase
+@interface pointdetectorTests : SenTestCase {
+    id test_subject;
+    NSUserDefaults *defaults;
+}
 
 @end
