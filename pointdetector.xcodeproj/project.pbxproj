@@ -27,8 +27,12 @@
 		EA5FD55917B365C2003AEA4B /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5FD55817B365C1003AEA4B /* Accounts.framework */; };
 		EA5FD55B17B365F3003AEA4B /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5FD55A17B365F3003AEA4B /* Twitter.framework */; };
 		EA5FD56117B387D2003AEA4B /* AlertViewWithBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5FD56017B387D0003AEA4B /* AlertViewWithBlock.m */; };
+		EA70502717E153600040A12D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3F246017AF4951005232D8 /* QuartzCore.framework */; };
+		EA70502817E153A40040A12D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC062117ABA3EA007F4122 /* CoreGraphics.framework */; };
 		EA9029C417B1D0A0000C9ABA /* TargetPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9029C317B1D0A0000C9ABA /* TargetPoint.m */; };
 		EA9029CB17B20A12000C9ABA /* PointDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9029CA17B20A12000C9ABA /* PointDetail.m */; };
+		EA9D683617E067F100C17431 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9D683517E067F100C17431 /* GHUnitIOS.framework */; };
+		EA9D683817E0687200C17431 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9D683717E0687200C17431 /* main.m */; };
 		EAC66DAD17D6E37A00DAB7C8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC66DAC17D6E37A00DAB7C8 /* MapKit.framework */; };
 		EAFC061E17ABA3EA007F4122 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC061D17ABA3EA007F4122 /* UIKit.framework */; };
 		EAFC062017ABA3EA007F4122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC061F17ABA3EA007F4122 /* Foundation.framework */; };
@@ -46,7 +50,6 @@
 		EAFC064A17ABA3EA007F4122 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC064917ABA3EA007F4122 /* SenTestingKit.framework */; };
 		EAFC064B17ABA3EA007F4122 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC061D17ABA3EA007F4122 /* UIKit.framework */; };
 		EAFC064C17ABA3EA007F4122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC061F17ABA3EA007F4122 /* Foundation.framework */; };
-		EAFC065417ABA3EA007F4122 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAFC065217ABA3EA007F4122 /* InfoPlist.strings */; };
 		EAFC065717ABA3EA007F4122 /* pointdetectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFC065617ABA3EA007F4122 /* pointdetectorTests.m */; };
 		EAFD8C8617CF06FC0015048F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAFD8C8517CF06FC0015048F /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
@@ -94,6 +97,8 @@
 		EA9029C317B1D0A0000C9ABA /* TargetPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetPoint.m; sourceTree = "<group>"; };
 		EA9029C917B20A12000C9ABA /* PointDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointDetail.h; sourceTree = "<group>"; };
 		EA9029CA17B20A12000C9ABA /* PointDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointDetail.m; sourceTree = "<group>"; };
+		EA9D683517E067F100C17431 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		EA9D683717E0687200C17431 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EAC66DAC17D6E37A00DAB7C8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		EAFC061917ABA3EA007F4122 /* pointdetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pointdetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFC061D17ABA3EA007F4122 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -118,8 +123,6 @@
 		EAFC064817ABA3EA007F4122 /* pointdetectorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pointdetectorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFC064917ABA3EA007F4122 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		EAFC065117ABA3EA007F4122 /* pointdetectorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pointdetectorTests-Info.plist"; sourceTree = "<group>"; };
-		EAFC065317ABA3EA007F4122 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EAFC065517ABA3EA007F4122 /* pointdetectorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pointdetectorTests.h; sourceTree = "<group>"; };
 		EAFC065617ABA3EA007F4122 /* pointdetectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pointdetectorTests.m; sourceTree = "<group>"; };
 		EAFD8C8517CF06FC0015048F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -144,7 +147,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA70502817E153A40040A12D /* CoreGraphics.framework in Frameworks */,
+				EA70502717E153600040A12D /* QuartzCore.framework in Frameworks */,
 				EAFC064A17ABA3EA007F4122 /* SenTestingKit.framework in Frameworks */,
+				EA9D683617E067F100C17431 /* GHUnitIOS.framework in Frameworks */,
 				EAFC064B17ABA3EA007F4122 /* UIKit.framework in Frameworks */,
 				EAFC064C17ABA3EA007F4122 /* Foundation.framework in Frameworks */,
 			);
@@ -176,6 +182,7 @@
 		EAFC061C17ABA3EA007F4122 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EA9D683517E067F100C17431 /* GHUnitIOS.framework */,
 				EAC66DAC17D6E37A00DAB7C8 /* MapKit.framework */,
 				EA5FD55A17B365F3003AEA4B /* Twitter.framework */,
 				EA5FD55817B365C1003AEA4B /* Accounts.framework */,
@@ -249,7 +256,6 @@
 		EAFC064F17ABA3EA007F4122 /* pointdetectorTests */ = {
 			isa = PBXGroup;
 			children = (
-				EAFC065517ABA3EA007F4122 /* pointdetectorTests.h */,
 				EAFC065617ABA3EA007F4122 /* pointdetectorTests.m */,
 				EAFC065017ABA3EA007F4122 /* Supporting Files */,
 			);
@@ -260,7 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				EAFC065117ABA3EA007F4122 /* pointdetectorTests-Info.plist */,
-				EAFC065217ABA3EA007F4122 /* InfoPlist.strings */,
+				EA9D683717E0687200C17431 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -360,7 +366,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAFC065417ABA3EA007F4122 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +383,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+			shellScript = "# Run the unit tests in this test bundle.\n#\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\nsh RunTests.sh";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -406,6 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA9D683817E0687200C17431 /* main.m in Sources */,
 				EAFC065717ABA3EA007F4122 /* pointdetectorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,14 +451,6 @@
 				EA54B2F617B483AD00C034E0 /* ja */,
 			);
 			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		EAFC065217ABA3EA007F4122 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EAFC065317ABA3EA007F4122 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -551,12 +549,18 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"/Users/sasaki/PointDetector-iOS",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pointdetector/pointdetector-Prefix.pch";
 				INFOPLIST_FILE = "pointdetectorTests/pointdetectorTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "${BUNDLE_LOADER}";
+				USER_HEADER_SEARCH_PATHS = Kiwi/Kiwi;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -568,12 +572,18 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"/Users/sasaki/PointDetector-iOS",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pointdetector/pointdetector-Prefix.pch";
 				INFOPLIST_FILE = "pointdetectorTests/pointdetectorTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				TEST_HOST = "${BUNDLE_LOADER}";
+				USER_HEADER_SEARCH_PATHS = Kiwi/Kiwi;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
