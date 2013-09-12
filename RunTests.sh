@@ -42,8 +42,8 @@ SCRIPTS_PATH=`cd $(dirname $0); pwd`
 launchctl submit -l GHUNIT_RunIPhoneSecurityd -- "$SCRIPTS_PATH"/RunIPhoneSecurityd.sh $IPHONE_SIMULATOR_ROOT $CFFIXED_USER_HOME
 trap "launchctl remove GHUNIT_RunIPhoneSecurityd" EXIT TERM INT
 
-#RUN_CMD="\"$TEST_TARGET_EXECUTABLE_PATH\" -RegisterForSystemEvents"
-RUN_CMD="\"$TEST_TARGET_EXECUTABLE_PATH\""
+RUN_CMD="\"$TEST_TARGET_EXECUTABLE_PATH\" -RegisterForSystemEvents"
+#RUN_CMD="\"$TEST_TARGET_EXECUTABLE_PATH\""
 echo "Running: $RUN_CMD"
 set +o errexit # Disable exiting on error so script continues if tests fail
 eval ios-sim launch "$RUN_CMD" --sdk 5.1
