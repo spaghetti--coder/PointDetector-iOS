@@ -554,13 +554,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pointdetector/pointdetector-Prefix.pch";
 				INFOPLIST_FILE = "pointdetectorTests/pointdetectorTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "${BUNDLE_LOADER}";
-				USER_HEADER_SEARCH_PATHS = Kiwi/Kiwi;
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -577,13 +574,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pointdetector/pointdetector-Prefix.pch";
 				INFOPLIST_FILE = "pointdetectorTests/pointdetectorTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "${BUNDLE_LOADER}";
-				USER_HEADER_SEARCH_PATHS = Kiwi/Kiwi;
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
