@@ -46,7 +46,7 @@ RUN_CMD="\"$TEST_TARGET_EXECUTABLE_PATH\" -RegisterForSystemEvents"
 
 echo "Running: $RUN_CMD"
 set +o errexit # Disable exiting on error so script continues if tests fail
-eval ios-sim launch $RUN_CMD --sdk=5.1
+eval ios-sim launch "$RUN_CMD" --sdk=5.1
 RETVAL=$?
 set -o errexit
 
