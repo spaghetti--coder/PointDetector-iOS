@@ -45,22 +45,22 @@ trap "launchctl remove GHUNIT_RunIPhoneSecurityd" EXIT TERM INT
 RUN_CMD="\"$TEST_TARGET_EXECUTABLE_PATH\" -RegisterForSystemEvents"
 
 echo "Running: $RUN_CMD"
-#set +o errexit # Disable exiting on error so script continues if tests fail
-#eval $RUN_CMD
-#RETVAL=$?
-#set -o errexit
+set +o errexit # Disable exiting on error so script continues if tests fail
+eval ios-sim launch $RUN_CMD --sdk=5.1
+RETVAL=$?
+set -o errexit
 
 unset DYLD_ROOT_PATH
 unset DYLD_FRAMEWORK_PATH
 unset IPHONE_SIMULATOR_ROOT
 
-#if [ -n "$WRITE_JUNIT_XML" ]; then
-#  MY_TMPDIR=`/usr/bin/getconf DARWIN_USER_TEMP_DIR`
-#  RESULTS_DIR="${MY_TMPDIR}test-results"
-#
-#  if [ -d "$RESULTS_DIR" ]; then
-#	`$CP -r "$RESULTS_DIR" "$BUILD_DIR" && rm -r "$RESULTS_DIR"`
-#  fi
-#fi
+if [ -n "$WRITE_JUNIT_XML" ]; then
+  MY_TMPDIR=`/usr/bin/getconf DARWIN_USER_TEMP_DIR`
+  RESULTS_DIR="${MY_TMPDIR}test-results"
+
+  if [ -d "$RESULTS_DIR" ]; then
+	`$CP -r "$RESULTS_DIR" "$BUILD_DIR" && rm -r "$RESULTS_DIR"`
+  fi
+fi
 
 exit $RETVAL
