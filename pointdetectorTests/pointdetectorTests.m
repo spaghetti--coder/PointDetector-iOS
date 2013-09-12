@@ -1,8 +1,3 @@
-//
-//
-// Template of Unit Test Case
-//
-//
 
 #import "GHUnitIOS/GHUnit.h"
 
@@ -39,4 +34,5 @@
     NSInteger num = 100;
     GHAssertEquals(num, 34, @"test");
 }
+
 @end

@@ -556,7 +556,7 @@
 				INFOPLIST_FILE = "pointdetectorTests/pointdetectorTests-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "${BUNDLE_LOADER}";
+				TEST_HOST = "";
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -576,7 +576,7 @@
 				INFOPLIST_FILE = "pointdetectorTests/pointdetectorTests-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "${BUNDLE_LOADER}";
+				TEST_HOST = "";
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = octest;
 			};
