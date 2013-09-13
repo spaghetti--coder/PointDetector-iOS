@@ -9,11 +9,6 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>pdTestwithJenkins.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>8</integer>
-		</dict>
 		<key>pointdetector.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
