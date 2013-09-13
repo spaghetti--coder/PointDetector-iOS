@@ -654,9 +654,9 @@
 			baseConfigurationReference = 89A9EC835B4A4094B11144A0 /* Pods-pdTest.xcconfig */;
 			buildSettings = {
 				ARCHS = (
-					"armv7,",
-					"armv7s,",
-					"i386,",
+					armv7,
+					armv7s,
+					i386,
 					amd64,
 				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -686,9 +686,9 @@
 			baseConfigurationReference = 89A9EC835B4A4094B11144A0 /* Pods-pdTest.xcconfig */;
 			buildSettings = {
 				ARCHS = (
-					"armv7,",
-					"armv7s,",
-					"i386,",
+					armv7,
+					armv7s,
+					i386,
 					amd64,
 				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
