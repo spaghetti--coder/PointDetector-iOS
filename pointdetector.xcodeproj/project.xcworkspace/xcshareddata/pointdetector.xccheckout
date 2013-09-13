@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4955DB5F-621B-439B-96E3-60E0F2377CA0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>pointdetector</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5FDDFE88-427D-49C5-A985-7F8245EEA945</key>
+		<string>https://github.com/spaghetti--coder/PointDetector-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>pointdetector.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5FDDFE88-427D-49C5-A985-7F8245EEA945</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/spaghetti--coder/PointDetector-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5FDDFE88-427D-49C5-A985-7F8245EEA945</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5FDDFE88-427D-49C5-A985-7F8245EEA945</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PointDetector-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

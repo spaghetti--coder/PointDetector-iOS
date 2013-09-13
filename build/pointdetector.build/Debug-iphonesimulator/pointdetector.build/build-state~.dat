@@ -1,0 +1,910 @@
+Tpointdetector
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/Info.plist /Users/sasaki/PointDetector-iOS/pointdetector/pointdetector-Info.plist
+cProcessPCH /var/folders/_0/0xx7fr6x2f1cjg_qw62q1z300000gt/C/com.apple.DeveloperTools/5.0-5A1412/Xcode/SharedPrecompiledHeaders/pointdetector-Prefix-hhwouzcpqqbqxvdzicfezherromi/pointdetector-Prefix.pch.pch pointdetector/pointdetector-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/AppDelegate.o /Users/sasaki/PointDetector-iOS/pointdetector/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/main.o /Users/sasaki/PointDetector-iOS/pointdetector/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/FirstViewController.o /Users/sasaki/PointDetector-iOS/pointdetector/FirstViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/SecondViewController.o /Users/sasaki/PointDetector-iOS/pointdetector/SecondViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/Coords.o /Users/sasaki/PointDetector-iOS/pointdetector/Coords.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/Message.o /Users/sasaki/PointDetector-iOS/pointdetector/Message.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/UserInfo.o /Users/sasaki/PointDetector-iOS/pointdetector/UserInfo.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/LoginAuth.o /Users/sasaki/PointDetector-iOS/pointdetector/LoginAuth.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/TargetPoint.o /Users/sasaki/PointDetector-iOS/pointdetector/TargetPoint.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/PointDetail.o /Users/sasaki/PointDetector-iOS/pointdetector/PointDetail.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/UserPoint.o /Users/sasaki/PointDetector-iOS/pointdetector/UserPoint.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/AlertViewWithBlock.o /Users/sasaki/PointDetector-iOS/pointdetector/AlertViewWithBlock.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/pointdetector normal i386
+cGenerateDSYMFile /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app.dSYM /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/pointdetector
+cCopyStringsFile /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/en.lproj/InfoPlist.strings pointdetector/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/sasaki/PointDetector-iOS/pointdetector/en.lproj/MainStoryboard_iPhone.storyboard
+cCompileStoryboard /Users/sasaki/PointDetector-iOS/pointdetector/ja.lproj/MainStoryboard_iPhone.storyboard
+cCompileStoryboard /Users/sasaki/PointDetector-iOS/pointdetector/en.lproj/MainStoryboard_iPad.storyboard
+cCompileStoryboard /Users/sasaki/PointDetector-iOS/pointdetector/ja.lproj/MainStoryboard_iPad.storyboard
+cCpResource pointdetector/first.png build/Debug-iphonesimulator/pointdetector.app/first.png
+cCpResource pointdetector/first@2x.png build/Debug-iphonesimulator/pointdetector.app/first@2x.png
+cCpResource pointdetector/second.png build/Debug-iphonesimulator/pointdetector.app/second.png
+cCpResource pointdetector/second@2x.png build/Debug-iphonesimulator/pointdetector.app/second@2x.png
+cCpResource pointdetector/pd_rabbit_found.png build/Debug-iphonesimulator/pointdetector.app/pd_rabbit_found.png
+cCpResource Default-568h@2x.png build/Debug-iphonesimulator/pointdetector.app/Default-568h@2x.png
+cCpResource pointdetector/icon-72.png build/Debug-iphonesimulator/pointdetector.app/icon-72.png
+cCpResource pointdetector/icon-72@2x.png build/Debug-iphonesimulator/pointdetector.app/icon-72@2x.png
+cCpResource pointdetector/icon-Small-50.png build/Debug-iphonesimulator/pointdetector.app/icon-Small-50.png
+cCpResource pointdetector/icon-Small-50@2x.png build/Debug-iphonesimulator/pointdetector.app/icon-Small-50@2x.png
+cCpResource pointdetector/icon-Small.png build/Debug-iphonesimulator/pointdetector.app/icon-Small.png
+cCpResource pointdetector/icon-Small@2x.png build/Debug-iphonesimulator/pointdetector.app/icon-Small@2x.png
+cCpResource pointdetector/icon.png build/Debug-iphonesimulator/pointdetector.app/icon.png
+cCpResource pointdetector/icon@2x.png build/Debug-iphonesimulator/pointdetector.app/icon@2x.png
+cTouch /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+c000000004F8DC2CA0000000000000110
+t1334690506
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/SDKSettings.plist
+c000000004F138CAC0000000000000645
+t1326681260
+s1605
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000004F3B880A000000000000019D
+t1329301514
+s413
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004F2DA52E0000000000182900
+t1328391470
+s1583360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Accounts.framework/Accounts
+c000000004F2DA210000000000001EC10
+t1328390672
+s125968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004F2DA3CD0000000000089510
+t1328391117
+s562448
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F13922B0000000000353830
+t1326682667
+s3487792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004F2DABFF00000000000D9D60
+t1328393215
+s892256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004F1394F000000000001AB190
+t1326683376
+s1749392
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Twitter.framework/Twitter
+c000000004F2DAB72000000000003A490
+t1328393074
+s238736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004F2DA4F80000000000905E40
+t1328391416
+s9461312
+
+N/Users/sasaki/PointDetector-iOS/Default-568h@2x.png
+c00000000520D821100000000000048A2
+t1376616977
+s18594
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app
+t1378975411
+s714
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app.dSYM
+t2
+s0
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/Default-568h@2x.png
+t1378975411
+s18594
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/Info.plist
+t1378975408
+s1235
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/PkgInfo
+t1378975408
+s8
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/en.lproj/InfoPlist.strings
+t1378975408
+s42
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/en.lproj/MainStoryboard_iPad.storyboardc
+t1378975411
+s204
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t1378975411
+s204
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/first.png
+t1378975411
+s253
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/first@2x.png
+t1378975411
+s402
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/icon-72.png
+t1378975411
+s5886
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/icon-72@2x.png
+t1378975411
+s19553
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/icon-Small-50.png
+t1378975411
+s3035
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/icon-Small-50@2x.png
+t1378975411
+s10027
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/icon-Small.png
+t1378975411
+s1380
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/icon-Small@2x.png
+t1378975411
+s4130
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/icon.png
+t1378975411
+s4001
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/icon@2x.png
+t1378975411
+s13076
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/ja.lproj/MainStoryboard_iPad.storyboardc
+t1378975411
+s204
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/ja.lproj/MainStoryboard_iPhone.storyboardc
+t1378975411
+s204
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/pd_rabbit_found.png
+t1378975411
+s21549
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/pointdetector
+t1378975408
+s180792
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/second.png
+t1378975411
+s128
+
+N/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/second@2x.png
+t1378975411
+s130
+
+N/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/AlertViewWithBlock.o
+t1378975408
+s74172
+
+N/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/AppDelegate.o
+t1378975408
+s77180
+
+N/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/Coords.o
+t1378975408
+s6056
+
+N/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/FirstViewController.o
+t1378975408
+s171400
+
+N/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/LoginAuth.o
+t1378975408
+s104964
+
+N/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/Message.o
+t1378975408
+s7124
+
+N/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/PointDetail.o
+t1378975408
+s10284
+
+N/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/SecondViewController.o
+t1378975408
+s144876
+
+N/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/TargetPoint.o
+t1378975408
+s100712
+
+N/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/UserInfo.o
+t1378975408
+s8588
+
+N/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/UserPoint.o
+t1378975408
+s25128
+
+N/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/main.o
+t1378975408
+s5596
+
+N/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/pointdetector.LinkFileList
+c0000000052317EB00000000000000649
+t1378975408
+s1609
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/AlertViewWithBlock.m
+c00000000520356320000000000000588
+t1375950386
+s1416
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/AppDelegate.m
+c0000000051FB6C6A000000000000083F
+t1375431786
+s2111
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/Coords.m
+c0000000051FEF75900000000000004D0
+t1375663961
+s1232
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/FirstViewController.m
+c000000005226CC470000000000005DA5
+t1378274375
+s23973
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/LoginAuth.m
+c00000000522032F30000000000002C80
+t1377841907
+s11392
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/Message.m
+c000000005200630C00000000000000DE
+t1375757068
+s222
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/PointDetail.m
+c000000005201D3770000000000000136
+t1375851383
+s310
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/SecondViewController.m
+c000000005226E1A3000000000000564D
+t1378279843
+s22093
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/TargetPoint.m
+c000000005226E28100000000000029E4
+t1378280065
+s10724
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/UserInfo.m
+c00000000520062EB00000000000000FC
+t1375757035
+s252
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/UserPoint.m
+c000000005220318D000000000000100B
+t1377841549
+s4107
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/en.lproj/InfoPlist.strings
+c0000000051FB6C6A000000000000002D
+t1375431786
+s45
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/en.lproj/MainStoryboard_iPad.storyboard
+c00000000523025EB0000000000004E8A
+t1378887147
+s20106
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/en.lproj/MainStoryboard_iPhone.storyboard
+c000000005226B00E000000000000485C
+t1378267150
+s18524
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/first.png
+c000000004E7BF98C00000000000000FD
+t1316747660
+s253
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/first@2x.png
+c000000004E7BF98C0000000000000192
+t1316747660
+s402
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/icon-72.png
+c000000005203078000000000000016FE
+t1375930240
+s5886
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/icon-72@2x.png
+c00000000520307920000000000004C61
+t1375930258
+s19553
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/icon-Small-50.png
+c00000000520307CA0000000000000BDB
+t1375930314
+s3035
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/icon-Small-50@2x.png
+c00000000520307D6000000000000272B
+t1375930326
+s10027
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/icon-Small.png
+c00000000520307A60000000000000564
+t1375930278
+s1380
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/icon-Small@2x.png
+c00000000520307B80000000000001022
+t1375930296
+s4130
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/icon.png
+c00000000520307540000000000000FA1
+t1375930196
+s4001
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/icon@2x.png
+c000000005203076A0000000000003314
+t1375930218
+s13076
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/ja.lproj/MainStoryboard_iPad.storyboard
+c000000005226C65A0000000000004F28
+t1378272858
+s20264
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/ja.lproj/MainStoryboard_iPhone.storyboard
+c000000005226B93F0000000000004B9F
+t1378269503
+s19359
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/main.m
+c0000000051FF316700000000000001F3
+t1375678823
+s499
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/pd_rabbit_found.png
+c00000000520309FC000000000000542D
+t1375930876
+s21549
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/pointdetector-Info.plist
+c000000005226B8AA000000000000075A
+t1378269354
+s1882
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/pointdetector-Prefix.pch
+c0000000051FB6C6A0000000000000149
+t1375431786
+s329
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/second.png
+c000000004E7BF98C0000000000000080
+t1316747660
+s128
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/second@2x.png
+c000000004E7BF98C0000000000000082
+t1316747660
+s130
+
+N/var/folders/_0/0xx7fr6x2f1cjg_qw62q1z300000gt/C/com.apple.DeveloperTools/5.0-5A1412/Xcode/SharedPrecompiledHeaders/pointdetector-Prefix-hhwouzcpqqbqxvdzicfezherromi/pointdetector-Prefix.pch.pch
+t1378952242
+s4192924
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies8b4e0230b6e1b741^6dc91230b6e1b741^---0#1#1#--18"Check dependencies36"A841E6CD-05AE-4CD8-9FB2-0D2E3ADC0E07-
+
+CCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/AlertViewWithBlock.o /Users/sasaki/PointDetector-iOS/pointdetector/AlertViewWithBlock.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400668208.333249
+e400668208.397871
+r1
+xCompileC
+xbuild/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/AlertViewWithBlock.o
+x/Users/sasaki/PointDetector-iOS/pointdetector/AlertViewWithBlock.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sasaki/PointDetector-iOS/pointdetector/AlertViewWithBlock.m
+d/Users/sasaki/PointDetector-iOS/pointdetector/AlertViewWithBlock.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/sasaki/PointDetector-iOS/pointdetector/AlertViewWithBlock.m236"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/AlertViewWithBlock.o [1mpointdetector/AlertViewWithBlock.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6f805530b6e1b741^c6dc6530b6e1b741^---0#0#1#-19%DVTDocumentLocation2@82"file://localhost/Users/sasaki/PointDetector-iOS/pointdetector/AlertViewWithBlock.m0000000000000000^3789"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/AlertViewWithBlock.o [1mpointdetector/AlertViewWithBlock.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sasaki/PointDetector-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-generated-files.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-own-target-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-all-target-headers.hmap -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-project-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources/i386 -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources -F/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator -include /var/folders/_0/0xx7fr6x2f1cjg_qw62q1z300000gt/C/com.apple.DeveloperTools/5.0-5A1412/Xcode/SharedPrecompiledHeaders/pointdetector-Prefix-hhwouzcpqqbqxvdzicfezherromi/pointdetector-Prefix.pch -MMD -MT dependencies -MF /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/AlertViewWithBlock.d --serialize-diagnostics /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/AlertViewWithBlock.dia -c /Users/sasaki/PointDetector-iOS/pointdetector/AlertViewWithBlock.m -o /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/AlertViewWithBlock.o36"BE9D4079-4FD2-4D38-90DE-1B207618867C-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/AppDelegate.o /Users/sasaki/PointDetector-iOS/pointdetector/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400668208.094966
+e400668208.183722
+r1
+xCompileC
+xbuild/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/AppDelegate.o
+x/Users/sasaki/PointDetector-iOS/pointdetector/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sasaki/PointDetector-iOS/pointdetector/AppDelegate.m
+d/Users/sasaki/PointDetector-iOS/pointdetector/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/sasaki/PointDetector-iOS/pointdetector/AppDelegate.m222"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/AppDelegate.o [1mpointdetector/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera7931830b6e1b741^f0512f30b6e1b741^---0#0#1#-19%DVTDocumentLocation2@75"file://localhost/Users/sasaki/PointDetector-iOS/pointdetector/AppDelegate.m0000000000000000^3747"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/AppDelegate.o [1mpointdetector/AppDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sasaki/PointDetector-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-generated-files.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-own-target-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-all-target-headers.hmap -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-project-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources/i386 -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources -F/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator -include /var/folders/_0/0xx7fr6x2f1cjg_qw62q1z300000gt/C/com.apple.DeveloperTools/5.0-5A1412/Xcode/SharedPrecompiledHeaders/pointdetector-Prefix-hhwouzcpqqbqxvdzicfezherromi/pointdetector-Prefix.pch -MMD -MT dependencies -MF /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/AppDelegate.dia -c /Users/sasaki/PointDetector-iOS/pointdetector/AppDelegate.m -o /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/AppDelegate.o36"612D067E-2E8A-45BE-BAF7-0F1C9FD23BCA-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/Coords.o /Users/sasaki/PointDetector-iOS/pointdetector/Coords.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400668208.134143
+e400668208.168799
+r1
+xCompileC
+xbuild/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/Coords.o
+x/Users/sasaki/PointDetector-iOS/pointdetector/Coords.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sasaki/PointDetector-iOS/pointdetector/Coords.m
+d/Users/sasaki/PointDetector-iOS/pointdetector/Coords.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/sasaki/PointDetector-iOS/pointdetector/Coords.m212"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/Coords.o [1mpointdetector/Coords.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0d8a2230b6e1b741^a6812b30b6e1b741^---0#0#1#-19%DVTDocumentLocation2@70"file://localhost/Users/sasaki/PointDetector-iOS/pointdetector/Coords.m0000000000000000^3717"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/Coords.o [1mpointdetector/Coords.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sasaki/PointDetector-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-generated-files.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-own-target-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-all-target-headers.hmap -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-project-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources/i386 -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources -F/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator -include /var/folders/_0/0xx7fr6x2f1cjg_qw62q1z300000gt/C/com.apple.DeveloperTools/5.0-5A1412/Xcode/SharedPrecompiledHeaders/pointdetector-Prefix-hhwouzcpqqbqxvdzicfezherromi/pointdetector-Prefix.pch -MMD -MT dependencies -MF /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/Coords.d --serialize-diagnostics /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/Coords.dia -c /Users/sasaki/PointDetector-iOS/pointdetector/Coords.m -o /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/Coords.o36"A90F839D-56AD-47D9-B40A-D75015F7E75D-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/FirstViewController.o /Users/sasaki/PointDetector-iOS/pointdetector/FirstViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400668208.096230
+e400668208.353605
+r1
+xCompileC
+xbuild/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/FirstViewController.o
+x/Users/sasaki/PointDetector-iOS/pointdetector/FirstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sasaki/PointDetector-iOS/pointdetector/FirstViewController.m
+d/Users/sasaki/PointDetector-iOS/pointdetector/FirstViewController.h
+d/Users/sasaki/PointDetector-iOS/pointdetector/AlertViewWithBlock.h
+d/Users/sasaki/PointDetector-iOS/pointdetector/Coords.h
+d/Users/sasaki/PointDetector-iOS/pointdetector/UserPoint.h
+d/Users/sasaki/PointDetector-iOS/pointdetector/Message.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/sasaki/PointDetector-iOS/pointdetector/FirstViewController.m238"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/FirstViewController.o [1mpointdetector/FirstViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler16df1830b6e1b741^1f865a30b6e1b741^---0#0#1#-19%DVTDocumentLocation2@83"file://localhost/Users/sasaki/PointDetector-iOS/pointdetector/FirstViewController.m0000000000000000^3795"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/FirstViewController.o [1mpointdetector/FirstViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sasaki/PointDetector-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-generated-files.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-own-target-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-all-target-headers.hmap -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-project-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources/i386 -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources -F/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator -include /var/folders/_0/0xx7fr6x2f1cjg_qw62q1z300000gt/C/com.apple.DeveloperTools/5.0-5A1412/Xcode/SharedPrecompiledHeaders/pointdetector-Prefix-hhwouzcpqqbqxvdzicfezherromi/pointdetector-Prefix.pch -MMD -MT dependencies -MF /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/FirstViewController.d --serialize-diagnostics /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/FirstViewController.dia -c /Users/sasaki/PointDetector-iOS/pointdetector/FirstViewController.m -o /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/FirstViewController.o36"317EE7C6-D307-4DEC-8396-7B84655A2B22-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/LoginAuth.o /Users/sasaki/PointDetector-iOS/pointdetector/LoginAuth.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400668208.206343
+e400668208.331481
+r1
+xCompileC
+xbuild/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/LoginAuth.o
+x/Users/sasaki/PointDetector-iOS/pointdetector/LoginAuth.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sasaki/PointDetector-iOS/pointdetector/LoginAuth.m
+d/Users/sasaki/PointDetector-iOS/pointdetector/LoginAuth.h
+d/Users/sasaki/PointDetector-iOS/pointdetector/UserInfo.h
+d/Users/sasaki/PointDetector-iOS/pointdetector/Message.h
+d/Users/sasaki/PointDetector-iOS/pointdetector/TargetPoint.h
+d/Users/sasaki/PointDetector-iOS/pointdetector/PointDetail.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/sasaki/PointDetector-iOS/pointdetector/LoginAuth.m218"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/LoginAuth.o [1mpointdetector/LoginAuth.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6b0d3530b6e1b741^12fb5430b6e1b741^---0#0#1#-19%DVTDocumentLocation2@73"file://localhost/Users/sasaki/PointDetector-iOS/pointdetector/LoginAuth.m0000000000000000^3735"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/LoginAuth.o [1mpointdetector/LoginAuth.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sasaki/PointDetector-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-generated-files.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-own-target-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-all-target-headers.hmap -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-project-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources/i386 -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources -F/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator -include /var/folders/_0/0xx7fr6x2f1cjg_qw62q1z300000gt/C/com.apple.DeveloperTools/5.0-5A1412/Xcode/SharedPrecompiledHeaders/pointdetector-Prefix-hhwouzcpqqbqxvdzicfezherromi/pointdetector-Prefix.pch -MMD -MT dependencies -MF /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/LoginAuth.d --serialize-diagnostics /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/LoginAuth.dia -c /Users/sasaki/PointDetector-iOS/pointdetector/LoginAuth.m -o /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/LoginAuth.o36"15A6F6A7-E45C-4E16-A837-0A71BFD621A9-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/Message.o /Users/sasaki/PointDetector-iOS/pointdetector/Message.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400668208.170186
+e400668208.204999
+r1
+xCompileC
+xbuild/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/Message.o
+x/Users/sasaki/PointDetector-iOS/pointdetector/Message.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sasaki/PointDetector-iOS/pointdetector/Message.m
+d/Users/sasaki/PointDetector-iOS/pointdetector/Message.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/sasaki/PointDetector-iOS/pointdetector/Message.m214"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/Message.o [1mpointdetector/Message.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb1c42b30b6e1b741^1c983430b6e1b741^---0#0#1#-19%DVTDocumentLocation2@71"file://localhost/Users/sasaki/PointDetector-iOS/pointdetector/Message.m0000000000000000^3723"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/Message.o [1mpointdetector/Message.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sasaki/PointDetector-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-generated-files.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-own-target-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-all-target-headers.hmap -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-project-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources/i386 -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources -F/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator -include /var/folders/_0/0xx7fr6x2f1cjg_qw62q1z300000gt/C/com.apple.DeveloperTools/5.0-5A1412/Xcode/SharedPrecompiledHeaders/pointdetector-Prefix-hhwouzcpqqbqxvdzicfezherromi/pointdetector-Prefix.pch -MMD -MT dependencies -MF /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/Message.d --serialize-diagnostics /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/Message.dia -c /Users/sasaki/PointDetector-iOS/pointdetector/Message.m -o /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/Message.o36"C2B7CE28-F697-4E62-A0AB-C7757F3BD0F4-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/PointDetail.o /Users/sasaki/PointDetector-iOS/pointdetector/PointDetail.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400668208.270682
+e400668208.306378
+r1
+xCompileC
+xbuild/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/PointDetail.o
+x/Users/sasaki/PointDetector-iOS/pointdetector/PointDetail.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sasaki/PointDetector-iOS/pointdetector/PointDetail.m
+d/Users/sasaki/PointDetector-iOS/pointdetector/PointDetail.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/sasaki/PointDetector-iOS/pointdetector/PointDetail.m222"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/PointDetail.o [1mpointdetector/PointDetail.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilercc7e4530b6e1b741^63ee4e30b6e1b741^---0#0#1#-19%DVTDocumentLocation2@75"file://localhost/Users/sasaki/PointDetector-iOS/pointdetector/PointDetail.m0000000000000000^3747"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/PointDetail.o [1mpointdetector/PointDetail.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sasaki/PointDetector-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-generated-files.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-own-target-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-all-target-headers.hmap -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-project-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources/i386 -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources -F/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator -include /var/folders/_0/0xx7fr6x2f1cjg_qw62q1z300000gt/C/com.apple.DeveloperTools/5.0-5A1412/Xcode/SharedPrecompiledHeaders/pointdetector-Prefix-hhwouzcpqqbqxvdzicfezherromi/pointdetector-Prefix.pch -MMD -MT dependencies -MF /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/PointDetail.d --serialize-diagnostics /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/PointDetail.dia -c /Users/sasaki/PointDetector-iOS/pointdetector/PointDetail.m -o /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/PointDetail.o36"C30C9926-1D12-48FB-B901-AB652BC3FDCF-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/SecondViewController.o /Users/sasaki/PointDetector-iOS/pointdetector/SecondViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400668208.096307
+e400668208.269124
+r1
+xCompileC
+xbuild/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/SecondViewController.o
+x/Users/sasaki/PointDetector-iOS/pointdetector/SecondViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sasaki/PointDetector-iOS/pointdetector/SecondViewController.m
+d/Users/sasaki/PointDetector-iOS/pointdetector/SecondViewController.h
+d/Users/sasaki/PointDetector-iOS/pointdetector/UserInfo.h
+d/Users/sasaki/PointDetector-iOS/pointdetector/Message.h
+d/Users/sasaki/PointDetector-iOS/pointdetector/LoginAuth.h
+d/Users/sasaki/PointDetector-iOS/pointdetector/TargetPoint.h
+d/Users/sasaki/PointDetector-iOS/pointdetector/PointDetail.h
+d/Users/sasaki/PointDetector-iOS/pointdetector/AlertViewWithBlock.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/sasaki/PointDetector-iOS/pointdetector/SecondViewController.m240"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/SecondViewController.o [1mpointdetector/SecondViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler66dc1830b6e1b741^e90f4530b6e1b741^---0#0#1#-19%DVTDocumentLocation2@84"file://localhost/Users/sasaki/PointDetector-iOS/pointdetector/SecondViewController.m0000000000000000^3801"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/SecondViewController.o [1mpointdetector/SecondViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sasaki/PointDetector-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-generated-files.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-own-target-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-all-target-headers.hmap -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-project-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources/i386 -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources -F/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator -include /var/folders/_0/0xx7fr6x2f1cjg_qw62q1z300000gt/C/com.apple.DeveloperTools/5.0-5A1412/Xcode/SharedPrecompiledHeaders/pointdetector-Prefix-hhwouzcpqqbqxvdzicfezherromi/pointdetector-Prefix.pch -MMD -MT dependencies -MF /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/SecondViewController.d --serialize-diagnostics /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/SecondViewController.dia -c /Users/sasaki/PointDetector-iOS/pointdetector/SecondViewController.m -o /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/SecondViewController.o36"805B5695-04F7-433A-8A14-982ADE7718BD-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/TargetPoint.o /Users/sasaki/PointDetector-iOS/pointdetector/TargetPoint.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400668208.224838
+e400668208.338532
+r1
+xCompileC
+xbuild/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/TargetPoint.o
+x/Users/sasaki/PointDetector-iOS/pointdetector/TargetPoint.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sasaki/PointDetector-iOS/pointdetector/TargetPoint.m
+d/Users/sasaki/PointDetector-iOS/pointdetector/TargetPoint.h
+d/Users/sasaki/PointDetector-iOS/pointdetector/Message.h
+d/Users/sasaki/PointDetector-iOS/pointdetector/PointDetail.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/sasaki/PointDetector-iOS/pointdetector/TargetPoint.m222"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/TargetPoint.o [1mpointdetector/TargetPoint.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler65c43930b6e1b741^d6c45630b6e1b741^---0#0#1#-19%DVTDocumentLocation2@75"file://localhost/Users/sasaki/PointDetector-iOS/pointdetector/TargetPoint.m0000000000000000^3747"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/TargetPoint.o [1mpointdetector/TargetPoint.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sasaki/PointDetector-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-generated-files.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-own-target-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-all-target-headers.hmap -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-project-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources/i386 -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources -F/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator -include /var/folders/_0/0xx7fr6x2f1cjg_qw62q1z300000gt/C/com.apple.DeveloperTools/5.0-5A1412/Xcode/SharedPrecompiledHeaders/pointdetector-Prefix-hhwouzcpqqbqxvdzicfezherromi/pointdetector-Prefix.pch -MMD -MT dependencies -MF /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/TargetPoint.d --serialize-diagnostics /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/TargetPoint.dia -c /Users/sasaki/PointDetector-iOS/pointdetector/TargetPoint.m -o /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/TargetPoint.o36"57D44101-EBB0-46DB-8AA2-332B0A832A34-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/UserInfo.o /Users/sasaki/PointDetector-iOS/pointdetector/UserInfo.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400668208.185431
+e400668208.223271
+r1
+xCompileC
+xbuild/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/UserInfo.o
+x/Users/sasaki/PointDetector-iOS/pointdetector/UserInfo.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sasaki/PointDetector-iOS/pointdetector/UserInfo.m
+d/Users/sasaki/PointDetector-iOS/pointdetector/UserInfo.h
+d/Users/sasaki/PointDetector-iOS/pointdetector/Message.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/sasaki/PointDetector-iOS/pointdetector/UserInfo.m216"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/UserInfo.o [1mpointdetector/UserInfo.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler35b62f30b6e1b741^b2463930b6e1b741^---0#0#1#-19%DVTDocumentLocation2@72"file://localhost/Users/sasaki/PointDetector-iOS/pointdetector/UserInfo.m0000000000000000^3729"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/UserInfo.o [1mpointdetector/UserInfo.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sasaki/PointDetector-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-generated-files.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-own-target-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-all-target-headers.hmap -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-project-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources/i386 -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources -F/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator -include /var/folders/_0/0xx7fr6x2f1cjg_qw62q1z300000gt/C/com.apple.DeveloperTools/5.0-5A1412/Xcode/SharedPrecompiledHeaders/pointdetector-Prefix-hhwouzcpqqbqxvdzicfezherromi/pointdetector-Prefix.pch -MMD -MT dependencies -MF /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/UserInfo.d --serialize-diagnostics /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/UserInfo.dia -c /Users/sasaki/PointDetector-iOS/pointdetector/UserInfo.m -o /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/UserInfo.o36"81ABFE20-B0D6-4292-AA15-EAB9FCD5BDE4-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/UserPoint.o /Users/sasaki/PointDetector-iOS/pointdetector/UserPoint.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400668208.307801
+e400668208.356976
+r1
+xCompileC
+xbuild/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/UserPoint.o
+x/Users/sasaki/PointDetector-iOS/pointdetector/UserPoint.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sasaki/PointDetector-iOS/pointdetector/UserPoint.m
+d/Users/sasaki/PointDetector-iOS/pointdetector/UserPoint.h
+d/Users/sasaki/PointDetector-iOS/pointdetector/Message.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/sasaki/PointDetector-iOS/pointdetector/UserPoint.m218"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/UserPoint.o [1mpointdetector/UserPoint.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf10f4f30b6e1b741^91635b30b6e1b741^---0#0#1#-19%DVTDocumentLocation2@73"file://localhost/Users/sasaki/PointDetector-iOS/pointdetector/UserPoint.m0000000000000000^3735"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/UserPoint.o [1mpointdetector/UserPoint.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sasaki/PointDetector-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-generated-files.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-own-target-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-all-target-headers.hmap -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-project-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources/i386 -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources -F/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator -include /var/folders/_0/0xx7fr6x2f1cjg_qw62q1z300000gt/C/com.apple.DeveloperTools/5.0-5A1412/Xcode/SharedPrecompiledHeaders/pointdetector-Prefix-hhwouzcpqqbqxvdzicfezherromi/pointdetector-Prefix.pch -MMD -MT dependencies -MF /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/UserPoint.d --serialize-diagnostics /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/UserPoint.dia -c /Users/sasaki/PointDetector-iOS/pointdetector/UserPoint.m -o /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/UserPoint.o36"20F3221D-BBAC-474D-B0A9-7C4125C0568E-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCompileC build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/main.o /Users/sasaki/PointDetector-iOS/pointdetector/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s400668208.095011
+e400668208.132759
+r1
+xCompileC
+xbuild/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/main.o
+x/Users/sasaki/PointDetector-iOS/pointdetector/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sasaki/PointDetector-iOS/pointdetector/main.m
+d/Users/sasaki/PointDetector-iOS/pointdetector/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/sasaki/PointDetector-iOS/pointdetector/main.m208"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/main.o [1mpointdetector/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera0a41830b6e1b741^da382230b6e1b741^---0#0#1#-19%DVTDocumentLocation2@68"file://localhost/Users/sasaki/PointDetector-iOS/pointdetector/main.m0000000000000000^3705"[1mCompileC[0m build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/main.o [1mpointdetector/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sasaki/PointDetector-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-generated-files.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-own-target-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-all-target-headers.hmap -iquote /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/pointdetector-project-headers.hmap -I/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources/i386 -I/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/DerivedSources -F/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator -include /var/folders/_0/0xx7fr6x2f1cjg_qw62q1z300000gt/C/com.apple.DeveloperTools/5.0-5A1412/Xcode/SharedPrecompiledHeaders/pointdetector-Prefix-hhwouzcpqqbqxvdzicfezherromi/pointdetector-Prefix.pch -MMD -MT dependencies -MF /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/main.dia -c /Users/sasaki/PointDetector-iOS/pointdetector/main.m -o /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/main.o36"460F9B35-BA24-40F6-A210-E2B62051DC57-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCompileStoryboard /Users/sasaki/PointDetector-iOS/pointdetector/en.lproj/MainStoryboard_iPad.storyboard
+s400668208.507970
+e400668211.843876
+r1
+xCompileStoryboard
+x/Users/sasaki/PointDetector-iOS/pointdetector/en.lproj/MainStoryboard_iPad.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"[1mCompileStoryboard[0m [1mpointdetector/en.lproj/MainStoryboard_iPad.storyboard[0m87"[1mCompileStoryboard[0m [1mpointdetector/en.lproj/MainStoryboard_iPad.storyboard[0m12308230b6e1b741^a708d833b6e1b741^---0#0#1#-19%DVTDocumentLocation2@101"file://localhost/Users/sasaki/PointDetector-iOS/pointdetector/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^1166"[1mCompileStoryboard[0m [1mpointdetector/en.lproj/MainStoryboard_iPad.storyboard[0m    cd /Users/sasaki/PointDetector-iOS    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/en.lproj/MainStoryboard_iPad.storyboardc /Users/sasaki/PointDetector-iOS/pointdetector/en.lproj/MainStoryboard_iPad.storyboard36"332D62D4-716D-4D6A-9B5E-5A0FF098744D-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCompileStoryboard /Users/sasaki/PointDetector-iOS/pointdetector/en.lproj/MainStoryboard_iPhone.storyboard
+s400668208.507074
+e400668211.747527
+r1
+xCompileStoryboard
+x/Users/sasaki/PointDetector-iOS/pointdetector/en.lproj/MainStoryboard_iPhone.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"[1mCompileStoryboard[0m [1mpointdetector/en.lproj/MainStoryboard_iPhone.storyboard[0m89"[1mCompileStoryboard[0m [1mpointdetector/en.lproj/MainStoryboard_iPhone.storyboard[0mf2088230b6e1b741^cf86c033b6e1b741^---0#0#1#-19%DVTDocumentLocation2@103"file://localhost/Users/sasaki/PointDetector-iOS/pointdetector/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^1172"[1mCompileStoryboard[0m [1mpointdetector/en.lproj/MainStoryboard_iPhone.storyboard[0m    cd /Users/sasaki/PointDetector-iOS    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/sasaki/PointDetector-iOS/pointdetector/en.lproj/MainStoryboard_iPhone.storyboard36"6588BFA3-9111-4E50-8A82-1385A32127D1-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCompileStoryboard /Users/sasaki/PointDetector-iOS/pointdetector/ja.lproj/MainStoryboard_iPad.storyboard
+s400668208.512765
+e400668211.851155
+r1
+xCompileStoryboard
+x/Users/sasaki/PointDetector-iOS/pointdetector/ja.lproj/MainStoryboard_iPad.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"[1mCompileStoryboard[0m [1mpointdetector/ja.lproj/MainStoryboard_iPad.storyboard[0m87"[1mCompileStoryboard[0m [1mpointdetector/ja.lproj/MainStoryboard_iPad.storyboard[0me4678330b6e1b741^ffe6d933b6e1b741^---0#0#1#-19%DVTDocumentLocation2@101"file://localhost/Users/sasaki/PointDetector-iOS/pointdetector/ja.lproj/MainStoryboard_iPad.storyboard0000000000000000^1166"[1mCompileStoryboard[0m [1mpointdetector/ja.lproj/MainStoryboard_iPad.storyboard[0m    cd /Users/sasaki/PointDetector-iOS    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/ja.lproj/MainStoryboard_iPad.storyboardc /Users/sasaki/PointDetector-iOS/pointdetector/ja.lproj/MainStoryboard_iPad.storyboard36"0E5F0016-3DFD-4E7D-AF99-3DE4DE55E605-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCompileStoryboard /Users/sasaki/PointDetector-iOS/pointdetector/ja.lproj/MainStoryboard_iPhone.storyboard
+s400668208.507082
+e400668211.773000
+r1
+xCompileStoryboard
+x/Users/sasaki/PointDetector-iOS/pointdetector/ja.lproj/MainStoryboard_iPhone.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"[1mCompileStoryboard[0m [1mpointdetector/ja.lproj/MainStoryboard_iPhone.storyboard[0m89"[1mCompileStoryboard[0m [1mpointdetector/ja.lproj/MainStoryboard_iPhone.storyboard[0m27f98130b6e1b741^c9e3c533b6e1b741^---0#0#1#-19%DVTDocumentLocation2@103"file://localhost/Users/sasaki/PointDetector-iOS/pointdetector/ja.lproj/MainStoryboard_iPhone.storyboard0000000000000000^1172"[1mCompileStoryboard[0m [1mpointdetector/ja.lproj/MainStoryboard_iPhone.storyboard[0m    cd /Users/sasaki/PointDetector-iOS    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/ja.lproj/MainStoryboard_iPhone.storyboardc /Users/sasaki/PointDetector-iOS/pointdetector/ja.lproj/MainStoryboard_iPhone.storyboard36"12985346-9420-4FAA-8E12-8E07BBEBD9BD-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCopyStringsFile /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/en.lproj/InfoPlist.strings pointdetector/en.lproj/InfoPlist.strings
+s400668208.506950
+e400668208.511450
+r1
+xCopyStringsFile
+x/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/en.lproj/InfoPlist.strings
+xpointdetector/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy pointdetector/en.lproj/InfoPlist.strings137"[1mCopyStringsFile[0m build/Debug-iphonesimulator/pointdetector.app/en.lproj/InfoPlist.strings pointdetector/en.lproj/InfoPlist.strings8a058230b6e1b741^2cef8230b6e1b741^---0#0#1#-19%DVTDocumentLocation2@88"file://localhost/Users/sasaki/PointDetector-iOS/pointdetector/en.lproj/InfoPlist.strings0000000000000000^877"[1mCopyStringsFile[0m build/Debug-iphonesimulator/pointdetector.app/en.lproj/InfoPlist.strings pointdetector/en.lproj/InfoPlist.strings    cd /Users/sasaki/PointDetector-iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/en.lproj -- pointdetector/en.lproj/InfoPlist.strings36"355C285C-3D71-4F98-8F30-8A7D9A2E6C02-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCpResource Default-568h@2x.png build/Debug-iphonesimulator/pointdetector.app/Default-568h@2x.png
+s400668211.774747
+e400668211.778250
+r1
+xCpResource
+xDefault-568h@2x.png
+xbuild/Debug-iphonesimulator/pointdetector.app/Default-568h@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Debug-iphonesimulator/pointdetector.app/Default-568h@2x.png104"[1mCpResource[0m Default-568h@2x.png build/Debug-iphonesimulator/pointdetector.app/Default-568h@2x.png1dadc633b6e1b741^0c3cc733b6e1b741^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/Default-568h@2x.png003824d2deffdf42^865"[1mCpResource[0m Default-568h@2x.png build/Debug-iphonesimulator/pointdetector.app/Default-568h@2x.png    cd /Users/sasaki/PointDetector-iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sasaki/PointDetector-iOS/Default-568h@2x.png /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app36"20A559BF-DC4C-417C-8D6F-4FE46DBD3BF8-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCpResource pointdetector/first.png build/Debug-iphonesimulator/pointdetector.app/first.png
+s400668211.753892
+e400668211.757111
+r1
+xCpResource
+xpointdetector/first.png
+xbuild/Debug-iphonesimulator/pointdetector.app/first.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphonesimulator/pointdetector.app/first.png98"[1mCpResource[0m pointdetector/first.png build/Debug-iphonesimulator/pointdetector.app/first.png3525c133b6e1b741^6de5c133b6e1b741^---0#0#1#-19%DVTDocumentLocation2@103"file://localhost/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/first.png003824d2deffdf42^863"[1mCpResource[0m pointdetector/first.png build/Debug-iphonesimulator/pointdetector.app/first.png    cd /Users/sasaki/PointDetector-iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sasaki/PointDetector-iOS/pointdetector/first.png /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app36"661100E7-F666-45C6-9575-0BE54746A6B0-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCpResource pointdetector/first@2x.png build/Debug-iphonesimulator/pointdetector.app/first@2x.png
+s400668211.758414
+e400668211.761075
+r1
+xCpResource
+xpointdetector/first@2x.png
+xbuild/Debug-iphonesimulator/pointdetector.app/first@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/pointdetector.app/first@2x.png104"[1mCpResource[0m pointdetector/first@2x.png build/Debug-iphonesimulator/pointdetector.app/first@2x.png884bc233b6e1b741^d3d8c233b6e1b741^---0#0#1#-19%DVTDocumentLocation2@106"file://localhost/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/first@2x.png003824d2deffdf42^872"[1mCpResource[0m pointdetector/first@2x.png build/Debug-iphonesimulator/pointdetector.app/first@2x.png    cd /Users/sasaki/PointDetector-iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sasaki/PointDetector-iOS/pointdetector/first@2x.png /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app36"8D642D44-3FD2-4F20-BC65-7936CED486E6-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCpResource pointdetector/icon-72.png build/Debug-iphonesimulator/pointdetector.app/icon-72.png
+s400668211.776262
+e400668211.779133
+r1
+xCpResource
+xpointdetector/icon-72.png
+xbuild/Debug-iphonesimulator/pointdetector.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/pointdetector.app/icon-72.png102"[1mCpResource[0m pointdetector/icon-72.png build/Debug-iphonesimulator/pointdetector.app/icon-72.pngd3d8c633b6e1b741^0c76c733b6e1b741^---0#0#1#-19%DVTDocumentLocation2@105"file://localhost/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/icon-72.png003824d2deffdf42^869"[1mCpResource[0m pointdetector/icon-72.png build/Debug-iphonesimulator/pointdetector.app/icon-72.png    cd /Users/sasaki/PointDetector-iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sasaki/PointDetector-iOS/pointdetector/icon-72.png /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app36"48CD523C-911A-4867-A521-781A6D131EEC-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCpResource pointdetector/icon-72@2x.png build/Debug-iphonesimulator/pointdetector.app/icon-72@2x.png
+s400668211.779610
+e400668211.781958
+r1
+xCpResource
+xpointdetector/icon-72@2x.png
+xbuild/Debug-iphonesimulator/pointdetector.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/pointdetector.app/icon-72@2x.png108"[1mCpResource[0m pointdetector/icon-72@2x.png build/Debug-iphonesimulator/pointdetector.app/icon-72@2x.png5fb4c733b6e1b741^8333c833b6e1b741^---0#0#1#-19%DVTDocumentLocation2@108"file://localhost/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/icon-72@2x.png003824d2deffdf42^878"[1mCpResource[0m pointdetector/icon-72@2x.png build/Debug-iphonesimulator/pointdetector.app/icon-72@2x.png    cd /Users/sasaki/PointDetector-iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sasaki/PointDetector-iOS/pointdetector/icon-72@2x.png /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app36"045302B1-0B96-4BAA-AB4B-90CD733CFC4C-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCpResource pointdetector/icon-Small-50.png build/Debug-iphonesimulator/pointdetector.app/icon-Small-50.png
+s400668211.780462
+e400668211.783003
+r1
+xCpResource
+xpointdetector/icon-Small-50.png
+xbuild/Debug-iphonesimulator/pointdetector.app/icon-Small-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphonesimulator/pointdetector.app/icon-Small-50.png114"[1mCpResource[0m pointdetector/icon-Small-50.png build/Debug-iphonesimulator/pointdetector.app/icon-Small-50.pngafebc733b6e1b741^5873c833b6e1b741^---0#0#1#-19%DVTDocumentLocation2@111"file://localhost/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/icon-Small-50.png003824d2deffdf42^887"[1mCpResource[0m pointdetector/icon-Small-50.png build/Debug-iphonesimulator/pointdetector.app/icon-Small-50.png    cd /Users/sasaki/PointDetector-iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sasaki/PointDetector-iOS/pointdetector/icon-Small-50.png /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app36"83388FF8-41D6-4FA9-93AB-9E2D28A3D963-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCpResource pointdetector/icon-Small-50@2x.png build/Debug-iphonesimulator/pointdetector.app/icon-Small-50@2x.png
+s400668211.783322
+e400668211.787152
+r1
+xCpResource
+xpointdetector/icon-Small-50@2x.png
+xbuild/Debug-iphonesimulator/pointdetector.app/icon-Small-50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy build/Debug-iphonesimulator/pointdetector.app/icon-Small-50@2x.png120"[1mCpResource[0m pointdetector/icon-Small-50@2x.png build/Debug-iphonesimulator/pointdetector.app/icon-Small-50@2x.png96b2c833b6e1b741^7383c933b6e1b741^---0#0#1#-19%DVTDocumentLocation2@114"file://localhost/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/icon-Small-50@2x.png003824d2deffdf42^896"[1mCpResource[0m pointdetector/icon-Small-50@2x.png build/Debug-iphonesimulator/pointdetector.app/icon-Small-50@2x.png    cd /Users/sasaki/PointDetector-iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sasaki/PointDetector-iOS/pointdetector/icon-Small-50@2x.png /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app36"CBD874A5-EF2E-4D83-8D05-F76C378F82B2-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCpResource pointdetector/icon-Small.png build/Debug-iphonesimulator/pointdetector.app/icon-Small.png
+s400668211.783518
+e400668211.786137
+r1
+xCpResource
+xpointdetector/icon-Small.png
+xbuild/Debug-iphonesimulator/pointdetector.app/icon-Small.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/pointdetector.app/icon-Small.png108"[1mCpResource[0m pointdetector/icon-Small.png build/Debug-iphonesimulator/pointdetector.app/icon-Small.png07b4c833b6e1b741^1041c933b6e1b741^---0#0#1#-19%DVTDocumentLocation2@108"file://localhost/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/icon-Small.png003824d2deffdf42^878"[1mCpResource[0m pointdetector/icon-Small.png build/Debug-iphonesimulator/pointdetector.app/icon-Small.png    cd /Users/sasaki/PointDetector-iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sasaki/PointDetector-iOS/pointdetector/icon-Small.png /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app36"F2360391-5F66-43D7-A14F-5E39D73AE4E1-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCpResource pointdetector/icon-Small@2x.png build/Debug-iphonesimulator/pointdetector.app/icon-Small@2x.png
+s400668211.787437
+e400668211.790138
+r1
+xCpResource
+xpointdetector/icon-Small@2x.png
+xbuild/Debug-iphonesimulator/pointdetector.app/icon-Small@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphonesimulator/pointdetector.app/icon-Small@2x.png114"[1mCpResource[0m pointdetector/icon-Small@2x.png build/Debug-iphonesimulator/pointdetector.app/icon-Small@2x.pngafb3c933b6e1b741^3447ca33b6e1b741^---0#0#1#-19%DVTDocumentLocation2@111"file://localhost/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/icon-Small@2x.png003824d2deffdf42^887"[1mCpResource[0m pointdetector/icon-Small@2x.png build/Debug-iphonesimulator/pointdetector.app/icon-Small@2x.png    cd /Users/sasaki/PointDetector-iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sasaki/PointDetector-iOS/pointdetector/icon-Small@2x.png /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app36"0D3455B3-7D2B-48CD-8F58-9E2C6722A725-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCpResource pointdetector/icon.png build/Debug-iphonesimulator/pointdetector.app/icon.png
+s400668211.787835
+e400668211.790904
+r1
+xCpResource
+xpointdetector/icon.png
+xbuild/Debug-iphonesimulator/pointdetector.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphonesimulator/pointdetector.app/icon.png96"[1mCpResource[0m pointdetector/icon.png build/Debug-iphonesimulator/pointdetector.app/icon.pngc9ccc933b6e1b741^1c7bca33b6e1b741^---0#0#1#-19%DVTDocumentLocation2@102"file://localhost/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/icon.png003824d2deffdf42^860"[1mCpResource[0m pointdetector/icon.png build/Debug-iphonesimulator/pointdetector.app/icon.png    cd /Users/sasaki/PointDetector-iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sasaki/PointDetector-iOS/pointdetector/icon.png /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app36"67BB1C8A-5E92-431B-9D31-D7979E4D5934-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCpResource pointdetector/icon@2x.png build/Debug-iphonesimulator/pointdetector.app/icon@2x.png
+s400668211.791385
+e400668211.794172
+r1
+xCpResource
+xpointdetector/icon@2x.png
+xbuild/Debug-iphonesimulator/pointdetector.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/pointdetector.app/icon@2x.png102"[1mCpResource[0m pointdetector/icon@2x.png build/Debug-iphonesimulator/pointdetector.app/icon@2x.pnge5b9ca33b6e1b741^3c50cb33b6e1b741^---0#0#1#-19%DVTDocumentLocation2@105"file://localhost/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/icon@2x.png003824d2deffdf42^869"[1mCpResource[0m pointdetector/icon@2x.png build/Debug-iphonesimulator/pointdetector.app/icon@2x.png    cd /Users/sasaki/PointDetector-iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sasaki/PointDetector-iOS/pointdetector/icon@2x.png /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app36"5B94B21F-DFFF-4FE4-BD70-C290D006DC7B-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCpResource pointdetector/pd_rabbit_found.png build/Debug-iphonesimulator/pointdetector.app/pd_rabbit_found.png
+s400668211.770013
+e400668211.774812
+r1
+xCpResource
+xpointdetector/pd_rabbit_found.png
+xbuild/Debug-iphonesimulator/pointdetector.app/pd_rabbit_found.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Debug-iphonesimulator/pointdetector.app/pd_rabbit_found.png118"[1mCpResource[0m pointdetector/pd_rabbit_found.png build/Debug-iphonesimulator/pointdetector.app/pd_rabbit_found.pngdd40c533b6e1b741^c18fc633b6e1b741^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/pd_rabbit_found.png003824d2deffdf42^893"[1mCpResource[0m pointdetector/pd_rabbit_found.png build/Debug-iphonesimulator/pointdetector.app/pd_rabbit_found.png    cd /Users/sasaki/PointDetector-iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sasaki/PointDetector-iOS/pointdetector/pd_rabbit_found.png /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app36"F81DC865-83BC-43F1-ADAC-7C0607BB50CA-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCpResource pointdetector/second.png build/Debug-iphonesimulator/pointdetector.app/second.png
+s400668211.762344
+e400668211.764919
+r1
+xCpResource
+xpointdetector/second.png
+xbuild/Debug-iphonesimulator/pointdetector.app/second.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/pointdetector.app/second.png100"[1mCpResource[0m pointdetector/second.png build/Debug-iphonesimulator/pointdetector.app/second.png3d48c333b6e1b741^0ce6c333b6e1b741^---0#0#1#-19%DVTDocumentLocation2@104"file://localhost/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/second.png003824d2deffdf42^866"[1mCpResource[0m pointdetector/second.png build/Debug-iphonesimulator/pointdetector.app/second.png    cd /Users/sasaki/PointDetector-iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sasaki/PointDetector-iOS/pointdetector/second.png /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app36"0EC1B307-DA1E-4FB9-B86F-7EFA5AB358C6-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CCpResource pointdetector/second@2x.png build/Debug-iphonesimulator/pointdetector.app/second@2x.png
+s400668211.766185
+e400668211.768634
+r1
+xCpResource
+xpointdetector/second@2x.png
+xbuild/Debug-iphonesimulator/pointdetector.app/second@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/pointdetector.app/second@2x.png106"[1mCpResource[0m pointdetector/second@2x.png build/Debug-iphonesimulator/pointdetector.app/second@2x.png8542c433b6e1b741^45d8c433b6e1b741^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/second@2x.png003824d2deffdf42^875"[1mCpResource[0m pointdetector/second@2x.png build/Debug-iphonesimulator/pointdetector.app/second@2x.png    cd /Users/sasaki/PointDetector-iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/sasaki/PointDetector-iOS/pointdetector/second@2x.png /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app36"69615E38-819B-40C6-8BE3-0CE699B5311A-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CGenerateDSYMFile /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app.dSYM /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/pointdetector
+s400668208.454607
+e400668208.498143
+r1
+xGenerateDSYMFile
+x/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app.dSYM
+x/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/pointdetector
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Generate /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app.dSYM143"[1mGenerateDSYMFile[0m [1mbuild/Debug-iphonesimulator/pointdetector.app.dSYM[0m build/Debug-iphonesimulator/pointdetector.app/pointdetector438f7430b6e1b741^48877f30b6e1b741^---0#0#1#-19%DVTDocumentLocation2@98"file://localhost/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app.dSYM003824d2deffdf42^940"[1mGenerateDSYMFile[0m [1mbuild/Debug-iphonesimulator/pointdetector.app.dSYM[0m build/Debug-iphonesimulator/pointdetector.app/pointdetector    cd /Users/sasaki/PointDetector-iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/pointdetector -o /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app.dSYM36"C4D53ABA-FCFB-40CE-83B2-FFE94677D673-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CLd /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/pointdetector normal i386
+s400668208.407626
+e400668208.444943
+r1
+xLd
+x/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/pointdetector
+xnormal
+xi386
+d/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/pointdetector.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/lib/crt1.o
+d/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/main.o
+d/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/AppDelegate.o
+d/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/FirstViewController.o
+d/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/SecondViewController.o
+d/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/Coords.o
+d/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/Message.o
+d/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/UserInfo.o
+d/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/LoginAuth.o
+d/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/TargetPoint.o
+d/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/PointDetail.o
+d/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/UserPoint.o
+d/Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/AlertViewWithBlock.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Twitter.framework/Twitter
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Accounts.framework/Accounts
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/lib/system/libSystem.override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/lib/system/libSystem.host.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libdnsinfo.dylib
+d/usr/lib/system/libdyld.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_network.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Link /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/pointdetector82"[1mLd[0m build/Debug-iphonesimulator/pointdetector.app/pointdetector normal i3860d8c6830b6e1b741^7de97130b6e1b741^---0#0#1#--1738"[1mLd[0m build/Debug-iphonesimulator/pointdetector.app/pointdetector normal i386    cd /Users/sasaki/PointDetector-iOS    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator -F/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator -filelist /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/pointdetector.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework MapKit -framework Twitter -framework Accounts -framework QuartzCore -framework AVFoundation -framework CoreLocation -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/sasaki/PointDetector-iOS/build/pointdetector.build/Debug-iphonesimulator/pointdetector.build/Objects-normal/i386/pointdetector_dependency_info.dat -o /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/pointdetector36"9B65BECA-514E-4B3E-8718-3431BEA79314-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CProcessInfoPlistFile /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/Info.plist /Users/sasaki/PointDetector-iOS/pointdetector/pointdetector-Info.plist
+s400668208.079248
+e400668208.083873
+r1
+xProcessInfoPlistFile
+x/Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/Info.plist
+x/Users/sasaki/PointDetector-iOS/pointdetector/pointdetector-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Process /Users/sasaki/PointDetector-iOS/pointdetector/pointdetector-Info.plist132"[1mProcessInfoPlistFile[0m build/Debug-iphonesimulator/pointdetector.app/Info.plist [1mpointdetector/pointdetector-Info.plist[0m677f1430b6e1b741^9a7a1530b6e1b741^---0#0#1#-19%DVTDocumentLocation2@86"file://localhost/Users/sasaki/PointDetector-iOS/pointdetector/pointdetector-Info.plist0000000000000000^1003"[1mProcessInfoPlistFile[0m build/Debug-iphonesimulator/pointdetector.app/Info.plist [1mpointdetector/pointdetector-Info.plist[0m    cd /Users/sasaki/PointDetector-iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/usr/local:/usr/local/bin:/usr/X11/bin:/Users/sasaki:/Users/sasaki/cocos2d-x/cocos2d-2.1rc0-x-2.1.3:/usr/bin/python:/Users/sasaki/eclipse/sdk:/Users/sasaki/eclipse/sdk/tools:/Users/sasaki/eclipse/sdk/platform-tools:/usr/local/apache2/bin:/usr/local/mysql/bin"    builtin-infoPlistUtility /Users/sasaki/PointDetector-iOS/pointdetector/pointdetector-Info.plist -genpkginfo /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app/Info.plist36"DCE0E9D6-EF7C-4300-9879-A60020D98AA3-
+b088B53CE-9063-4AD3-86B9-2B8645E1A814
+
+CProcessPCH /var/folders/_0/0xx7fr6x2f1cjg_qw62q1z300000gt/C/com.apple.DeveloperTools/5.0-5A1412/Xcode/SharedPrecompiledHeaders/pointdetector-Prefix-hhwouzcpqqbqxvdzicfezherromi/pointdetector-Prefix.pch.pch pointdetector/pointdetector-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CTouch /Users/sasaki/PointDetector-iOS/build/Debug-iphonesimulator/pointdetector.app
+r0
+
