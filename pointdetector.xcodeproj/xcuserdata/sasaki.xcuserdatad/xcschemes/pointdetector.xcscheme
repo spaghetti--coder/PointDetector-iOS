@@ -38,6 +38,16 @@
                ReferencedContainer = "container:pointdetector.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EA1C264A17E2B12B00CEEB71"
+               BuildableName = "pdTestTests.xctest"
+               BlueprintName = "pdTestTests"
+               ReferencedContainer = "container:pointdetector.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

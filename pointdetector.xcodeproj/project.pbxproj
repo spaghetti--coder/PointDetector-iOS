@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D245973C4C74DDF880A62C8 /* libPods-pdTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6617C4F17B4EB28E5E8190 /* libPods-pdTest.a */; };
+		EA1C263617E2B12A00CEEB71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC061F17ABA3EA007F4122 /* Foundation.framework */; };
+		EA1C263717E2B12A00CEEB71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC062117ABA3EA007F4122 /* CoreGraphics.framework */; };
+		EA1C263817E2B12A00CEEB71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC061D17ABA3EA007F4122 /* UIKit.framework */; };
+		EA1C264017E2B12A00CEEB71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1C263F17E2B12A00CEEB71 /* main.m */; };
+		EA1C264617E2B12A00CEEB71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1C264517E2B12A00CEEB71 /* Images.xcassets */; };
+		EA1C264D17E2B12B00CEEB71 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1C264C17E2B12B00CEEB71 /* XCTest.framework */; };
+		EA1C264E17E2B12B00CEEB71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC061F17ABA3EA007F4122 /* Foundation.framework */; };
+		EA1C264F17E2B12B00CEEB71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC061D17ABA3EA007F4122 /* UIKit.framework */; };
+		EA1C266217E2B1DA00CEEB71 /* testCase.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1C266117E2B1DA00CEEB71 /* testCase.m */; };
 		EA3F245B17AF2D00005232D8 /* Coords.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3F245A17AF2D00005232D8 /* Coords.m */; };
 		EA3F245D17AF315B005232D8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3F245C17AF315B005232D8 /* CoreLocation.framework */; };
 		EA3F245F17AF3169005232D8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3F245E17AF3169005232D8 /* AVFoundation.framework */; };
@@ -31,8 +41,6 @@
 		EA70502817E153A40040A12D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC062117ABA3EA007F4122 /* CoreGraphics.framework */; };
 		EA9029C417B1D0A0000C9ABA /* TargetPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9029C317B1D0A0000C9ABA /* TargetPoint.m */; };
 		EA9029CB17B20A12000C9ABA /* PointDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9029CA17B20A12000C9ABA /* PointDetail.m */; };
-		EA9D683617E067F100C17431 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9D683517E067F100C17431 /* GHUnitIOS.framework */; };
-		EA9D683817E0687200C17431 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9D683717E0687200C17431 /* main.m */; };
 		EAC66DAD17D6E37A00DAB7C8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC66DAC17D6E37A00DAB7C8 /* MapKit.framework */; };
 		EAFC061E17ABA3EA007F4122 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC061D17ABA3EA007F4122 /* UIKit.framework */; };
 		EAFC062017ABA3EA007F4122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC061F17ABA3EA007F4122 /* Foundation.framework */; };
@@ -50,11 +58,17 @@
 		EAFC064A17ABA3EA007F4122 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC064917ABA3EA007F4122 /* SenTestingKit.framework */; };
 		EAFC064B17ABA3EA007F4122 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC061D17ABA3EA007F4122 /* UIKit.framework */; };
 		EAFC064C17ABA3EA007F4122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC061F17ABA3EA007F4122 /* Foundation.framework */; };
-		EAFC065717ABA3EA007F4122 /* pointdetectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFC065617ABA3EA007F4122 /* pointdetectorTests.m */; };
 		EAFD8C8617CF06FC0015048F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAFD8C8517CF06FC0015048F /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		EA1C265017E2B12B00CEEB71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAFC061017ABA3E9007F4122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA1C263417E2B12A00CEEB71;
+			remoteInfo = pdTest;
+		};
 		EAFC064D17ABA3EA007F4122 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EAFC061017ABA3E9007F4122 /* Project object */;
@@ -65,6 +79,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F6617C4F17B4EB28E5E8190 /* libPods-pdTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pdTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A9EC835B4A4094B11144A0 /* Pods-pdTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pdTest.xcconfig"; path = "Pods/Pods-pdTest.xcconfig"; sourceTree = "<group>"; };
+		EA1C263517E2B12A00CEEB71 /* pdTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pdTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1C263B17E2B12A00CEEB71 /* pdTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pdTest-Info.plist"; sourceTree = "<group>"; };
+		EA1C263F17E2B12A00CEEB71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA1C264517E2B12A00CEEB71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA1C264B17E2B12B00CEEB71 /* pdTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pdTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1C264C17E2B12B00CEEB71 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EA1C266017E2B1DA00CEEB71 /* testCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testCase.h; sourceTree = "<group>"; };
+		EA1C266117E2B1DA00CEEB71 /* testCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testCase.m; sourceTree = "<group>"; };
 		EA3F245817AF2CD4005232D8 /* Coords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coords.h; sourceTree = "<group>"; };
 		EA3F245A17AF2D00005232D8 /* Coords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coords.m; sourceTree = "<group>"; };
 		EA3F245C17AF315B005232D8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -98,7 +122,6 @@
 		EA9029C917B20A12000C9ABA /* PointDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointDetail.h; sourceTree = "<group>"; };
 		EA9029CA17B20A12000C9ABA /* PointDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointDetail.m; sourceTree = "<group>"; };
 		EA9D683517E067F100C17431 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
-		EA9D683717E0687200C17431 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EAC66DAC17D6E37A00DAB7C8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		EAFC061917ABA3EA007F4122 /* pointdetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pointdetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFC061D17ABA3EA007F4122 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -122,12 +145,31 @@
 		EAFC064117ABA3EA007F4122 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		EAFC064817ABA3EA007F4122 /* pointdetectorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pointdetectorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFC064917ABA3EA007F4122 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		EAFC065117ABA3EA007F4122 /* pointdetectorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pointdetectorTests-Info.plist"; sourceTree = "<group>"; };
-		EAFC065617ABA3EA007F4122 /* pointdetectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pointdetectorTests.m; sourceTree = "<group>"; };
 		EAFD8C8517CF06FC0015048F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EA1C263217E2B12A00CEEB71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1C263717E2B12A00CEEB71 /* CoreGraphics.framework in Frameworks */,
+				EA1C263817E2B12A00CEEB71 /* UIKit.framework in Frameworks */,
+				EA1C263617E2B12A00CEEB71 /* Foundation.framework in Frameworks */,
+				3D245973C4C74DDF880A62C8 /* libPods-pdTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1C264817E2B12B00CEEB71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1C264D17E2B12B00CEEB71 /* XCTest.framework in Frameworks */,
+				EA1C264F17E2B12B00CEEB71 /* UIKit.framework in Frameworks */,
+				EA1C264E17E2B12B00CEEB71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EAFC061617ABA3EA007F4122 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -150,7 +192,6 @@
 				EA70502817E153A40040A12D /* CoreGraphics.framework in Frameworks */,
 				EA70502717E153600040A12D /* QuartzCore.framework in Frameworks */,
 				EAFC064A17ABA3EA007F4122 /* SenTestingKit.framework in Frameworks */,
-				EA9D683617E067F100C17431 /* GHUnitIOS.framework in Frameworks */,
 				EAFC064B17ABA3EA007F4122 /* UIKit.framework in Frameworks */,
 				EAFC064C17ABA3EA007F4122 /* Foundation.framework in Frameworks */,
 			);
@@ -159,14 +200,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA1C263917E2B12A00CEEB71 /* pdTest */ = {
+			isa = PBXGroup;
+			children = (
+				EA1C266017E2B1DA00CEEB71 /* testCase.h */,
+				EA1C266117E2B1DA00CEEB71 /* testCase.m */,
+				EA1C264517E2B12A00CEEB71 /* Images.xcassets */,
+				EA1C263A17E2B12A00CEEB71 /* Supporting Files */,
+			);
+			path = pdTest;
+			sourceTree = "<group>";
+		};
+		EA1C263A17E2B12A00CEEB71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA1C263B17E2B12A00CEEB71 /* pdTest-Info.plist */,
+				EA1C263F17E2B12A00CEEB71 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		EAFC060E17ABA3E9007F4122 = {
 			isa = PBXGroup;
 			children = (
 				EAFD8C8517CF06FC0015048F /* Default-568h@2x.png */,
 				EAFC062317ABA3EA007F4122 /* pointdetector */,
-				EAFC064F17ABA3EA007F4122 /* pointdetectorTests */,
+				EA1C263917E2B12A00CEEB71 /* pdTest */,
 				EAFC061C17ABA3EA007F4122 /* Frameworks */,
 				EAFC061A17ABA3EA007F4122 /* Products */,
+				89A9EC835B4A4094B11144A0 /* Pods-pdTest.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -175,6 +237,8 @@
 			children = (
 				EAFC061917ABA3EA007F4122 /* pointdetector.app */,
 				EAFC064817ABA3EA007F4122 /* pointdetectorTests.octest */,
+				EA1C263517E2B12A00CEEB71 /* pdTest.app */,
+				EA1C264B17E2B12B00CEEB71 /* pdTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,6 +257,8 @@
 				EAFC061F17ABA3EA007F4122 /* Foundation.framework */,
 				EAFC062117ABA3EA007F4122 /* CoreGraphics.framework */,
 				EAFC064917ABA3EA007F4122 /* SenTestingKit.framework */,
+				EA1C264C17E2B12B00CEEB71 /* XCTest.framework */,
+				7F6617C4F17B4EB28E5E8190 /* libPods-pdTest.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -253,27 +319,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EAFC064F17ABA3EA007F4122 /* pointdetectorTests */ = {
-			isa = PBXGroup;
-			children = (
-				EAFC065617ABA3EA007F4122 /* pointdetectorTests.m */,
-				EAFC065017ABA3EA007F4122 /* Supporting Files */,
-			);
-			path = pointdetectorTests;
-			sourceTree = "<group>";
-		};
-		EAFC065017ABA3EA007F4122 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EAFC065117ABA3EA007F4122 /* pointdetectorTests-Info.plist */,
-				EA9D683717E0687200C17431 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EA1C263417E2B12A00CEEB71 /* pdTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1C265E17E2B12B00CEEB71 /* Build configuration list for PBXNativeTarget "pdTest" */;
+			buildPhases = (
+				9BA63D6E541441AE9DD21E09 /* Check Pods Manifest.lock */,
+				EA1C263117E2B12A00CEEB71 /* Sources */,
+				EA1C263217E2B12A00CEEB71 /* Frameworks */,
+				EA1C263317E2B12A00CEEB71 /* Resources */,
+				814F7E8E32874ECE9C898F82 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pdTest;
+			productName = pdTest;
+			productReference = EA1C263517E2B12A00CEEB71 /* pdTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA1C264A17E2B12B00CEEB71 /* pdTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1C265F17E2B12B00CEEB71 /* Build configuration list for PBXNativeTarget "pdTestTests" */;
+			buildPhases = (
+				EA1C264717E2B12B00CEEB71 /* Sources */,
+				EA1C264817E2B12B00CEEB71 /* Frameworks */,
+				EA1C264917E2B12B00CEEB71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA1C265117E2B12B00CEEB71 /* PBXTargetDependency */,
+			);
+			name = pdTestTests;
+			productName = pdTestTests;
+			productReference = EA1C264B17E2B12B00CEEB71 /* pdTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		EAFC061817ABA3EA007F4122 /* pointdetector */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAFC065A17ABA3EA007F4122 /* Build configuration list for PBXNativeTarget "pointdetector" */;
@@ -295,10 +380,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAFC065D17ABA3EA007F4122 /* Build configuration list for PBXNativeTarget "pointdetectorTests" */;
 			buildPhases = (
+				77D76F8F20E54A7AB74E6D2E /* Check Pods Manifest.lock */,
 				EAFC064317ABA3EA007F4122 /* Sources */,
 				EAFC064417ABA3EA007F4122 /* Frameworks */,
 				EAFC064517ABA3EA007F4122 /* Resources */,
 				EAFC064617ABA3EA007F4122 /* ShellScript */,
+				B0A573D044834B90840379B3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -317,6 +404,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					EA1C264A17E2B12B00CEEB71 = {
+						TestTargetID = EAFC061817ABA3EA007F4122;
+					};
+					EAFC064717ABA3EA007F4122 = {
+						TestTargetID = EAFC061817ABA3EA007F4122;
+					};
+				};
 			};
 			buildConfigurationList = EAFC061317ABA3E9007F4122 /* Build configuration list for PBXProject "pointdetector" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -333,11 +428,28 @@
 			targets = (
 				EAFC061817ABA3EA007F4122 /* pointdetector */,
 				EAFC064717ABA3EA007F4122 /* pointdetectorTests */,
+				EA1C263417E2B12A00CEEB71 /* pdTest */,
+				EA1C264A17E2B12B00CEEB71 /* pdTestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EA1C263317E2B12A00CEEB71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1C264617E2B12A00CEEB71 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1C264917E2B12B00CEEB71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EAFC061717ABA3EA007F4122 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -372,6 +484,66 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		77D76F8F20E54A7AB74E6D2E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		814F7E8E32874ECE9C898F82 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-pdTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BA63D6E541441AE9DD21E09 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0A573D044834B90840379B3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-pointdetectorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		EAFC064617ABA3EA007F4122 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,6 +560,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EA1C263117E2B12A00CEEB71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1C264017E2B12A00CEEB71 /* main.m in Sources */,
+				EA1C266217E2B1DA00CEEB71 /* testCase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1C264717E2B12B00CEEB71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EAFC061517ABA3EA007F4122 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -411,14 +599,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA9D683817E0687200C17431 /* main.m in Sources */,
-				EAFC065717ABA3EA007F4122 /* pointdetectorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		EA1C265117E2B12B00CEEB71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA1C263417E2B12A00CEEB71 /* pdTest */;
+			targetProxy = EA1C265017E2B12B00CEEB71 /* PBXContainerItemProxy */;
+		};
 		EAFC064E17ABA3EA007F4122 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EAFC061817ABA3EA007F4122 /* pointdetector */;
@@ -456,6 +647,116 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		EA1C265A17E2B12B00CEEB71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A9EC835B4A4094B11144A0 /* Pods-pdTest.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				INFOPLIST_FILE = "pdTest/pdTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA1C265B17E2B12B00CEEB71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A9EC835B4A4094B11144A0 /* Pods-pdTest.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				INFOPLIST_FILE = "pdTest/pdTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA1C265C17E2B12B00CEEB71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pointdetector.app/pointdetector";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pdTest/pdTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				INFOPLIST_FILE = "pdTestTests/pdTestTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EA1C265D17E2B12B00CEEB71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pointdetector.app/pointdetector";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pdTest/pdTest-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				INFOPLIST_FILE = "pdTestTests/pdTestTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 		EAFC065817ABA3EA007F4122 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -554,9 +855,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pointdetector/pointdetector-Prefix.pch";
 				INFOPLIST_FILE = "pointdetectorTests/pointdetectorTests-Info.plist";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -574,9 +875,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pointdetector/pointdetector-Prefix.pch";
 				INFOPLIST_FILE = "pointdetectorTests/pointdetectorTests-Info.plist";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -585,6 +886,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EA1C265E17E2B12B00CEEB71 /* Build configuration list for PBXNativeTarget "pdTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1C265A17E2B12B00CEEB71 /* Debug */,
+				EA1C265B17E2B12B00CEEB71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1C265F17E2B12B00CEEB71 /* Build configuration list for PBXNativeTarget "pdTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1C265C17E2B12B00CEEB71 /* Debug */,
+				EA1C265D17E2B12B00CEEB71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EAFC061317ABA3E9007F4122 /* Build configuration list for PBXProject "pointdetector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
