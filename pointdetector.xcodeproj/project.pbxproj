@@ -503,7 +503,7 @@
 		};
 		814F7E8E32874ECE9C898F82 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -513,7 +513,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-pdTest-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Pods-pdTest-resources.sh\"\n\"${SRCROOT}/RunTests.sh\"";
 			showEnvVarsInLog = 0;
 		};
 		9BA63D6E541441AE9DD21E09 /* Check Pods Manifest.lock */ = {
