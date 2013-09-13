@@ -6,90 +6,33 @@
 	<dict>
 		<key>Pods-pdTest-GHUnitIOS.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Pods-pdTest-OCMock.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>4</integer>
 		</dict>
 		<key>Pods-pdTest.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
 			<key>orderHint</key>
-			<integer>7</integer>
-		</dict>
-		<key>Pods-pointdetectorTests-GHUnitIOS.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>Pods-pointdetectorTests-OCMock.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>Pods-pointdetectorTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>5</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1455C602C804493CA9C5929E</key>
+		<key>2CDF21ECFDAD480EA4B2714E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3CFE11ADFE084E21B7AFA14B</key>
+		<key>93E509D011C2419E904F814F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5026E0FDC69C45A4B303A4BA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6D452CE2EA734860B94DA44C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>730E82AB6FA244B4A0E2AB87</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>755884135E1D42C6B9A8AF16</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9CAFD8A09FD5400EBBB9228A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D1E5D68E0C2B4206867F06F1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FDAD1F10FA784897BF1141C0</key>
+		<key>B9F6981CE27E4B329ACBF866</key>
 		<dict>
 			<key>primary</key>
 			<true/>
