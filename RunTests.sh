@@ -23,7 +23,11 @@ export NSAutoreleaseFreedObjectCheckEnabled=YES
 
 export DYLD_FRAMEWORK_PATH="$CONFIGURATION_BUILD_DIR"
 
-TEST_TARGET_EXECUTABLE_PATH="$TARGET_BUILD_DIR/$EXECUTABLE_PATH"
+# bug fixes
+echo "target:$TARGET_BUILD_DIR"
+
+TEST_TARGET_EXECUTABLE_PATH="$TARGET_BUILD_DIR/../Debug-iphonesimulator/$EXECUTABLE_PATH"
+#TEST_TARGET_EXECUTABLE_PATH="$TARGET_BUILD_DIR/$EXECUTABLE_PATH"
 
 if [ ! -e "$TEST_TARGET_EXECUTABLE_PATH" ]; then
   echo ""
@@ -42,11 +46,11 @@ SCRIPTS_PATH=`cd $(dirname $0); pwd`
 launchctl submit -l GHUNIT_RunIPhoneSecurityd -- "$SCRIPTS_PATH"/RunIPhoneSecurityd.sh $IPHONE_SIMULATOR_ROOT $CFFIXED_USER_HOME
 trap "launchctl remove GHUNIT_RunIPhoneSecurityd" EXIT TERM INT
 
-RUN_CMD="\"$TEST_TARGET_EXECUTABLE_PATH\" -RegisterForSystemEvents"
-#RUN_CMD="\"$TEST_TARGET_EXECUTABLE_PATH\""
+RUN_CMD="$TEST_TARGET_EXECUTABLE_PATH -RegisterForSystemEvents"
+
 echo "Running: $RUN_CMD"
 set +o errexit # Disable exiting on error so script continues if tests fail
-eval "$RUN_CMD"
+eval $RUN_CMD
 RETVAL=$?
 set -o errexit
 
