@@ -333,6 +333,7 @@
 				EA1C263217E2B12A00CEEB71 /* Frameworks */,
 				EA1C263317E2B12A00CEEB71 /* Resources */,
 				814F7E8E32874ECE9C898F82 /* Copy Pods Resources */,
+				EA1C266417E2E6BE00CEEB71 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -513,7 +514,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-pdTest-resources.sh\"\n\"${SRCROOT}/RunTests.sh\"";
+			shellScript = "\"${SRCROOT}/Pods/Pods-pdTest-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9BA63D6E541441AE9DD21E09 /* Check Pods Manifest.lock */ = {
@@ -545,6 +546,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Pods-pointdetectorTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		EA1C266417E2E6BE00CEEB71 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh RunTests.sh\n";
 		};
 		EAFC064617ABA3EA007F4122 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
