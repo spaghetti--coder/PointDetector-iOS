@@ -1,70 +1,44 @@
-#!/bin/sh
+#!/bin/bash
 
-# If we aren't running from the command line, then exit
-if [ "$GHUNIT_CLI" = "" ] && [ "$GHUNIT_AUTORUN" = "" ]; then
-  exit 0
+if [ "$RUN_UNIT_TEST_WITH_IOS_SIM" = "YES" ]; then
+
+   echo "Running application tests with ios-sim."
+
+    test_bundle_path="$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.$WRAPPER_EXTENSION"
+    environment_args="--setenv DYLD_INSERT_LIBRARIES=/../../Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection --setenv XCInjectBundle=$test_bundle_path --setenv XCInjectBundleInto=$TEST_HOST"
+    test_host_dir=$(dirname $TEST_HOST)
+
+    # record the output in a temp file so that we can parse it later and determine whether or not the tests ran and succeeded
+    test_logfile=$(mktemp /tmp/ios_application_tests_log.XXXXXX)
+
+    # launch the simulator using ios-sim
+    # ios-sim prefixes every buffered line (i.e., some "lines" can contain linebreaks) with "[DEBUG] ", which breaks the Jenkins Xcode plugin parser (it matches entire lines, so the prefix causes it to lose track of tests)
+    # as well, _most_ ios-sim output is sent to stderr, so we redirect stderr to stdout and strip the prefix with sed
+    # There's more! ios-sim will ALWAYS exit 1 (error) when running tests, because the app closes itself when the test suite is complete
+    # to work around this, we tee output to the temp file created above and parse it below so that we can return the proper exit code for Jenkins
+    # The ios-sim process will exit 1, but since it's piped to sed and tee, the line below will exit 0 and we can proceed to the parsing step.
+    /usr/local/bin/ios-sim launch $test_host_dir $environment_args --args -SenTest All -ApplePersistenceIgnoreState YES -NSTreatUnknownArgumentsAsOpen NO $test_bundle_path 2>&1 | sed -E 's/^Å_[DEBUGÅ_][ Å_t]*//g' | tee ${test_logfile}
+
+    # Test the log output for test case failure. If this line is present, exit 1
+    if egrep "Test Case '-Å_[[[:alnum:]]+[[:space:]][[:alnum:]]+Å_]' failed" ${test_logfile}
+    then
+        echo "A test failed."
+        exit 1
+    fi
+
+    # Test the log output for a success message. If this line is not present, it means that something failed
+    # before the test suite could finish (e.g., the sim could not start), so we will exit 1
+    if egrep --quiet "Test Suite 'All tests' finished" ${test_logfile}
+    then
+        echo "The test suite finished successfully."
+    else
+        echo "The test suite did not finish."
+        exit 1
+    fi
+
+else
+    echo "ios-sim test runner is disabled."
+    
+    # The standard toolchain test runner could be invoked with the following:
+    # "${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests"
 fi
-
-export DYLD_ROOT_PATH="$SDKROOT"
-export DYLD_FRAMEWORK_PATH="$CONFIGURATION_BUILD_DIR"
-export IPHONE_SIMULATOR_ROOT="$SDKROOT"
-export CFFIXED_USER_HOME="$TEMP_FILES_DIR/iPhone Simulator User Dir" # Be compatible with google-toolbox-for-mac
-
-if [ -d $"CFFIXED_USER_HOME" ]; then
-  rm -rf "$CFFIXED_USER_HOME"
-fi
-mkdir -p "$CFFIXED_USER_HOME"
-
-export NSDebugEnabled=YES
-export NSZombieEnabled=YES
-export NSDeallocateZombies=NO
-export NSHangOnUncaughtException=YES
-export NSAutoreleaseFreedObjectCheckEnabled=YES
-
-export DYLD_FRAMEWORK_PATH="$CONFIGURATION_BUILD_DIR"
-
-# bug fixes
-echo "target:$TARGET_BUILD_DIR"
-
-TEST_TARGET_EXECUTABLE_PATH="$TARGET_BUILD_DIR/../Debug-iphonesimulator/$EXECUTABLE_PATH"
-#TEST_TARGET_EXECUTABLE_PATH="$TARGET_BUILD_DIR/$EXECUTABLE_PATH"
-
-if [ ! -e "$TEST_TARGET_EXECUTABLE_PATH" ]; then
-  echo ""
-  echo "  ------------------------------------------------------------------------"
-  echo "  Missing executable path: "
-  echo "     $TEST_TARGET_EXECUTABLE_PATH."
-  echo "  The product may have failed to build or could have an old xcodebuild in your path (from 3.x instead of 4.x)."
-  echo "  ------------------------------------------------------------------------"
-  echo ""
-  exit 1
-fi
-
-# If trapping fails, make sure we kill any running securityd
-launchctl list | grep GHUNIT_RunIPhoneSecurityd && launchctl remove GHUNIT_RunIPhoneSecurityd
-SCRIPTS_PATH=`cd $(dirname $0); pwd`
-launchctl submit -l GHUNIT_RunIPhoneSecurityd -- "$SCRIPTS_PATH"/RunIPhoneSecurityd.sh $IPHONE_SIMULATOR_ROOT $CFFIXED_USER_HOME
-trap "launchctl remove GHUNIT_RunIPhoneSecurityd" EXIT TERM INT
-
-RUN_CMD="$TEST_TARGET_EXECUTABLE_PATH -RegisterForSystemEvents"
-
-echo "Running: $RUN_CMD"
-set +o errexit # Disable exiting on error so script continues if tests fail
-eval $RUN_CMD
-RETVAL=$?
-set -o errexit
-
-unset DYLD_ROOT_PATH
-unset DYLD_FRAMEWORK_PATH
-unset IPHONE_SIMULATOR_ROOT
-
-if [ -n "$WRITE_JUNIT_XML" ]; then
-  MY_TMPDIR=`/usr/bin/getconf DARWIN_USER_TEMP_DIR`
-  RESULTS_DIR="${MY_TMPDIR}test-results"
-
-  if [ -d "$RESULTS_DIR" ]; then
-	`$CP -r "$RESULTS_DIR" "$BUILD_DIR" && rm -r "$RESULTS_DIR"`
-  fi
-fi
-
-exit $RETVAL
