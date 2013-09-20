@@ -24,7 +24,7 @@ export NSAutoreleaseFreedObjectCheckEnabled=YES
 export DYLD_FRAMEWORK_PATH="$CONFIGURATION_BUILD_DIR"
 
 #TEST_TARGET_EXECUTABLE_PATH="$TARGET_BUILD_DIR/$EXECUTABLE_PATH"
-TEST_TARGET_EXECUTABLE_PATH="/Users/Shared/Jenkins/Home/workspace/PointDetector\(iOS\)/build/Products/Debug-iphoneos/pdTest.app/pdTest"
+TEST_TARGET_EXECUTABLE_PATH=/Users/Shared/Jenkins/Home/workspace/PointDetectorÅ_(iOSÅ_)/build/Products/Debug-iphoneos/pdTest.app/pdTest
 
 #if [ ! -e "$TEST_TARGET_EXECUTABLE_PATH" ]; then
 #  echo ""
