@@ -17,7 +17,7 @@
                BlueprintIdentifier = "93E509D011C2419E904F814F"
                BuildableName = "libPods-pdTest-GHUnitIOS.a"
                BlueprintName = "Pods-pdTest-GHUnitIOS"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
