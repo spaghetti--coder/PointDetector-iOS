@@ -7,15 +7,6 @@ cPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/sasaki/PointDetector-iOS
 cCompileC Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Objects-normal/armv7s/main.o /Users/sasaki/PointDetector-iOS/pdTest/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Objects-normal/armv7s/testCase.o /Users/sasaki/PointDetector-iOS/pdTest/testCase.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/pdTest.app/pdTest normal armv7s
-cGenerateDSYMFile /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/pdTest.app.dSYM /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/pdTest.app/pdTest
-cCompileAssetCatalog /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/pdTest.app /Users/sasaki/PointDetector-iOS/pdTest/Images.xcassets
-cProcessInfoPlistFile /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/pdTest.app/Info.plist /Users/sasaki/PointDetector-iOS/pdTest/pdTest-Info.plist
-cPhaseScriptExecution Copy\ Pods\ Resources /Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Script-814F7E8E32874ECE9C898F82.sh
-cPhaseScriptExecution Run\ Script /Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Script-EA1C266417E2E6BE00CEEB71.sh
-cProcessProductPackaging /Users/sasaki/Library/MobileDevice/Provisioning\ Profiles/1B881B45-4E15-4185-8B78-EDD27B5BCB15.mobileprovision /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/pdTest.app/embedded.mobileprovision
-cTouch /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/pdTest.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/pdTest.xcent
-cCodeSign /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/pdTest.app
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
 c00000000521BCCE10000000000000110
@@ -42,30 +33,295 @@ c0000000052365547000000000000019E
 t1379292487
 s414
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000005236554800000000006278E0
+t1379292488
+s6453472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+c000000005236554900000000000D7720
+t1379292489
+s882464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Accounts.framework/Accounts
+c000000005236554A00000000000C6CE0
+t1379292490
+s814304
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005236554C0000000000CF3600
+t1379292492
+s13579776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000005236554C0000000000632E40
+t1379292492
+s6499904
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000005236554C00000000001A1940
+t1379292492
+s1710400
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000005236554E000000000079BFF0
+t1379292494
+s7978992
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 c000000005236554F00000000004D6390
 t1379292495
 s5071760
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c0000000052365550000000000042AD60
+t1379292496
+s4369760
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000523655500000000000145160
+t1379292496
+s1331552
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
+c0000000052365550000000000011D3C0
+t1379292496
+s1168320
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000005236555000000000002BD730
+t1379292496
+s2873136
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c00000000523655500000000000306290
+t1379292496
+s3170960
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000052365550000000000006F7F0
+t1379292496
+s456688
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 c00000000523655510000000000A8EAD0
 t1379292497
 s11070160
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000005236555500000000003973E0
+t1379292501
+s3765216
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
+c00000000523655560000000000BF01B0
+t1379292502
+s12517808
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000523655570000000000046ED0
+t1379292503
+s290512
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
 c0000000052365559000000000063D6D0
 t1379292505
 s6543056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
+c000000005236555A000000000017D8E0
+t1379292506
+s1562848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Social.framework/Social
+c000000005236555A00000000002B0140
+t1379292506
+s2818368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Twitter.framework/Twitter
+c000000005236555C000000000001D1B0
+t1379292508
+s119216
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
 c00000000523655610000000002597C70
 t1379292513
 s39418992
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c00000000523655720000000000387AD0
+t1379292530
+s3701456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/crt1.3.1.o
+c000000005236558D00000000000142B0
+t1379292557
+s82608
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
+c000000005236558F000000000001D2B0
+t1379292559
+s119472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
+c0000000052365591000000000054C820
+t1379292561
+s5556256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
+c00000000523655910000000000028490
+t1379292561
+s165008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
+c000000005236559100000000000472B0
+t1379292561
+s291504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
+c0000000052365592000000000003EB80
+t1379292562
+s256896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
+c0000000052365592000000000002AEE0
+t1379292562
+s175840
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
+c000000005236559200000000000E2F20
+t1379292562
+s929568
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
+c000000005236559200000000000A1FC0
+t1379292562
+s663488
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
+c0000000052365592000000000001D770
+t1379292562
+s120688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
+c0000000052365592000000000000BF00
+t1379292562
+s48896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
+c00000000523655920000000000034100
+t1379292562
+s213248
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
+c00000000523655920000000000023D40
+t1379292562
+s146752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
+c0000000052365592000000000001D1B0
+t1379292562
+s119216
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
+c00000000523655920000000000051110
+t1379292562
+s332048
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
+c00000000523655920000000000017E90
+t1379292562
+s97936
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
+c000000005236559200000000001BA370
+t1379292562
+s1811312
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
+c0000000052365592000000000001EFF0
+t1379292562
+s126960
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
+c0000000052365592000000000002FA40
+t1379292562
+s195136
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
+c0000000052365592000000000008B3E0
+t1379292562
+s570336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
+c000000005236559200000000000B60D0
+t1379292562
+s745680
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
+c00000000523655920000000000078620
+t1379292562
+s493088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
+c00000000523655920000000000060810
+t1379292562
+s395280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
+c000000005236559200000000000B6B40
+t1379292562
+s748352
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
+c00000000523655920000000000039D00
+t1379292562
+s236800
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
+c0000000052365592000000000003E940
+t1379292562
+s256320
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
+c0000000052365592000000000002FC00
+t1379292562
+s195584
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
+c0000000052365592000000000001D9D0
+t1379292562
+s121296
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
+c0000000052365592000000000001EDE0
+t1379292562
+s126432
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
+c000000005236559200000000000213C0
+t1379292562
+s136128
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
+c000000005236559200000000000ADAC0
+t1379292562
+s711360
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
+c00000000520AC2D30000000000015B84
+t1376436947
+s88964
+
 N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
 c0000000052364DBF0000000000000AC9
 t1379290559
 s2761
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+c0000000052364DCA0000000000005004
+t1379290570
+s20484
 
 N/Users/sasaki/Library/MobileDevice/Provisioning Profiles/1B881B45-4E15-4185-8B78-EDD27B5BCB15.mobileprovision
 c00000000522698B9000000000000203B
@@ -82,8 +338,8 @@ t1379645920
 s262
 
 N/Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Objects-normal/armv7s/testCase.o
-t1379645921
-s11448
+t1379660968
+s15384
 
 N/Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Script-814F7E8E32874ECE9C898F82.sh
 c00000000523BB9E00000000000000036
@@ -112,6 +368,11 @@ N/Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-i
 t1379645923
 s418
 
+N/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/libPods-pdTest.a
+c00000000523BB88700000000002DE600
+t1379645575
+s3008000
+
 N/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/pdTest.app
 t1379645923
 s306
@@ -137,8 +398,123 @@ t1379645923
 s8251
 
 N/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/pdTest.app/pdTest
-t1379645921
-s421388
+t1379645924
+s433280
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/GHUnitIOS/GHAsyncTestCase.h
+c00000000523BB5F000000000000012C4
+t1379644912
+s4804
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/GHUnitIOS/GHTest+JUnitXML.h
+c00000000523BB5F000000000000005BC
+t1379644912
+s1468
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/GHUnitIOS/GHTest.h
+c00000000523BB5F00000000000001A0A
+t1379644912
+s6666
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/GHUnitIOS/GHTestCase.h
+c00000000523BB5F00000000000001269
+t1379644912
+s4713
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/GHUnitIOS/GHTestGroup+JUnitXML.h
+c00000000523BB5F00000000000000598
+t1379644912
+s1432
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/GHUnitIOS/GHTestGroup.h
+c00000000523BB5F00000000000001586
+t1379644912
+s5510
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/GHUnitIOS/GHTestMacros.h
+c00000000523BB5F0000000000000A0AB
+t1379644912
+s41131
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/GHUnitIOS/GHTestOperation.h
+c00000000523BB5F0000000000000062B
+t1379644912
+s1579
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/GHUnitIOS/GHTestRunner.h
+c00000000523BB5F00000000000001653
+t1379644912
+s5715
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/GHUnitIOS/GHTestSuite.h
+c00000000523BB5F00000000000000ED7
+t1379644912
+s3799
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/GHUnitIOS/GHTestUtils.h
+c00000000523BB5F00000000000000888
+t1379644912
+s2184
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/GHUnitIOS/GHTesting.h
+c00000000523BB5F000000000000010F6
+t1379644912
+s4342
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/GHUnitIOS/GHUnit.h
+c00000000523BB5F00000000000000783
+t1379644912
+s1923
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/GHUnitIOS/GHUnitIOSAppDelegate.h
+c00000000523BB5F000000000000005C4
+t1379644912
+s1476
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/GHUnitIOS/GHViewTestCase.h
+c00000000523BB5F0000000000000139B
+t1379644912
+s5019
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/GHUnitIOS/NSException+GHTestFailureExceptions.h
+c00000000523BB5F000000000000010C0
+t1379644912
+s4288
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/GHUnitIOS/NSValue+GHValueFormatter.h
+c00000000523BB5F00000000000000BF7
+t1379644912
+s3063
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/OCMock/NSNotificationCenter+OCMAdditions.h
+c00000000523BB5F200000000000001F9
+t1379644914
+s505
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/OCMock/OCMArg.h
+c00000000523BB5F2000000000000038D
+t1379644914
+s909
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/OCMock/OCMConstraint.h
+c00000000523BB5F20000000000000591
+t1379644914
+s1425
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/OCMock/OCMock.h
+c00000000523BB5F200000000000001BF
+t1379644914
+s447
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/OCMock/OCMockObject.h
+c00000000523BB5F20000000000000443
+t1379644914
+s1091
+
+N/Users/sasaki/PointDetector-iOS/Pods/Headers/OCMock/OCMockRecorder.h
+c00000000523BB5F2000000000000044C
+t1379644914
+s1100
 
 N/Users/sasaki/PointDetector-iOS/build/Products/Debug-iphoneos/libPods-pdTest.a
 c00000000523BB88700000000002DE600
@@ -160,10 +536,65 @@ c00000000523279AA00000000000005B6
 t1379039658
 s1462
 
+N/Users/sasaki/PointDetector-iOS/pdTest/testCase.h
+c0000000052327A8200000000000000B1
+t1379039874
+s177
+
 N/Users/sasaki/PointDetector-iOS/pdTest/testCase.m
-c00000000523964E200000000000004EF
-t1379493090
-s1263
+c00000000523BF4A00000000000000515
+t1379660960
+s1301
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/AlertViewWithBlock.h
+c000000005203563600000000000001FE
+t1375950390
+s510
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/Coords.h
+c0000000051FEF753000000000000041D
+t1375663955
+s1053
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/FirstViewController.h
+c000000005226E5840000000000000989
+t1378280836
+s2441
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/LoginAuth.h
+c00000000520493EA0000000000000360
+t1376031722
+s864
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/Message.h
+c000000005200B0340000000000000150
+t1375776820
+s336
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/PointDetail.h
+c000000005201D37D00000000000001A0
+t1375851389
+s416
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/SecondViewController.h
+c000000005204A00800000000000007C0
+t1376034824
+s1984
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/TargetPoint.h
+c0000000052047E2E00000000000004BB
+t1376026158
+s1211
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/UserInfo.h
+c000000005200B012000000000000019A
+t1375776786
+s410
+
+N/Users/sasaki/PointDetector-iOS/pointdetector/UserPoint.h
+c0000000052034031000000000000032E
+t1375944753
+s814
 
 CBuild AST from /Users/sasaki/PointDetector-iOS/pdTest/main.m
 r0
@@ -173,7 +604,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies34d9eb60f1ebb741^5d8ced60f1ebb741^---0#1#1#--18"Check dependencies36"4E1D28FE-5205-481C-8621-86830A8B49A3-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesee0a0d282cecb741^95630e282cecb741^---0#1#1#--18"Check dependencies36"E6CDD841-512C-46CA-A81F-F813CF903F45-
 
 CCodeSign /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/pdTest.app
 s401338723.925288
@@ -232,8 +663,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile
 b6F524DEA-329D-4B63-AE1F-5AD13024B115
 
 CCompileC Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Objects-normal/armv7s/testCase.o /Users/sasaki/PointDetector-iOS/pdTest/testCase.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s401338720.977888
-e401338721.546633
+s401353768.101532
+e401353768.720542
 r1
 xCompileC
 xBuild/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Objects-normal/armv7s/testCase.o
@@ -265,8 +696,8 @@ d/Users/sasaki/PointDetector-iOS/pointdetector/UserInfo.h
 d/Users/sasaki/PointDetector-iOS/pointdetector/LoginAuth.h
 d/Users/sasaki/PointDetector-iOS/pointdetector/TargetPoint.h
 d/Users/sasaki/PointDetector-iOS/pointdetector/PointDetail.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/sasaki/PointDetector-iOS/pdTest/testCase.m197"CompileC Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Objects-normal/armv7s/testCase.o pdTest/testCase.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler6a84fa60f1ebb741^99f08b61f1ebb741^---0#0#1#-19%DVTDocumentLocation2@65"file://localhost/Users/sasaki/PointDetector-iOS/pdTest/testCase.m0000000000000000^3345"CompileC Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Objects-normal/armv7s/testCase.o pdTest/testCase.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sasaki/PointDetector-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/sasaki/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.1 -iquote /Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/pdTest-generated-files.hmap -I/Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/pdTest-own-target-headers.hmap -I/Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/pdTest-all-target-headers.hmap -iquote /Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/pdTest-project-headers.hmap -I/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/include -I/Users/sasaki/PointDetector-iOS/Pods/Headers -I/Users/sasaki/PointDetector-iOS/Pods/Headers/GHUnitIOS -I/Users/sasaki/PointDetector-iOS/Pods/Headers/OCMock -I/Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/DerivedSources/armv7s -I/Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/DerivedSources -F/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos -MMD -MT dependencies -MF /Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Objects-normal/armv7s/testCase.d --serialize-diagnostics /Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Objects-normal/armv7s/testCase.dia -c /Users/sasaki/PointDetector-iOS/pdTest/testCase.m -o /Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Objects-normal/armv7s/testCase.o36"DF69611B-3B5A-4E19-9DAB-DF2B84E39DA9-
-b6F524DEA-329D-4B63-AE1F-5AD13024B115
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/sasaki/PointDetector-iOS/pdTest/testCase.m197"CompileC Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Objects-normal/armv7s/testCase.o pdTest/testCase.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler4c1b1a282cecb741^a375b8282cecb741^---0#0#1#-19%DVTDocumentLocation2@65"file://localhost/Users/sasaki/PointDetector-iOS/pdTest/testCase.m0000000000000000^3345"CompileC Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Objects-normal/armv7s/testCase.o pdTest/testCase.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sasaki/PointDetector-iOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/sasaki/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.1 -iquote /Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/pdTest-generated-files.hmap -I/Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/pdTest-own-target-headers.hmap -I/Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/pdTest-all-target-headers.hmap -iquote /Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/pdTest-project-headers.hmap -I/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/include -I/Users/sasaki/PointDetector-iOS/Pods/Headers -I/Users/sasaki/PointDetector-iOS/Pods/Headers/GHUnitIOS -I/Users/sasaki/PointDetector-iOS/Pods/Headers/OCMock -I/Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/DerivedSources/armv7s -I/Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/DerivedSources -F/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos -MMD -MT dependencies -MF /Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Objects-normal/armv7s/testCase.d --serialize-diagnostics /Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Objects-normal/armv7s/testCase.dia -c /Users/sasaki/PointDetector-iOS/pdTest/testCase.m -o /Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Objects-normal/armv7s/testCase.o36"3BAF3D57-4EC7-483F-9265-8803B4350D97-
+bDE35D669-F4E6-4561-9BA7-1275939D425D
 
 CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/pdTest.app/ResourceRules.plist
 s401338720.929708
@@ -289,9 +720,9 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Generat
 b6F524DEA-329D-4B63-AE1F-5AD13024B115
 
 CLd /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/pdTest.app/pdTest normal armv7s
-s401338721.560163
-e401338721.952380
-r1
+s401353768.734408
+e401353769.179919
+r0
 xLd
 x/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/pdTest.app/pdTest
 xnormal
@@ -357,18 +788,23 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Develope
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Link /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/pdTest.app/pdTest64"Ld Build/Products/Debug-iphoneos/pdTest.app/pdTest normal armv7s51858f61f1ebb741^45d9f361f1ebb741^---0#0#1#--1352"Ld Build/Products/Debug-iphoneos/pdTest.app/pdTest normal armv7s    cd /Users/sasaki/PointDetector-iOS    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos -L/Users/sasaki/PointDetector-iOS/build/Products/Debug-iphoneos -F/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos -filelist /Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Objects-normal/armv7s/pdTest.LinkFileList -dead_strip -ObjC -all_load -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=5.1 -lPods-pdTest -framework QuartzCore -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Objects-normal/armv7s/pdTest_dependency_info.dat -o /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/pdTest.app/pdTest36"B82457AA-3BF2-446D-8211-6A05EF69B511-
-b6F524DEA-329D-4B63-AE1F-5AD13024B115
+oUndefined symbols for architecture armv7s:
+o  "_OBJC_CLASS_$_LoginAuth", referenced from:
+o      objc-class-ref in testCase.o
+old: symbol(s) not found for architecture armv7s
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Link /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/pdTest.app/pdTest64"Ld Build/Products/Debug-iphoneos/pdTest.app/pdTest normal armv7s321fbc282cecb741^0a0f2e292cecb741^-252"Undefined symbols for architecture armv7s:  "_OBJC_CLASS_$_LoginAuth", referenced from:      objc-class-ref in testCase.old: symbol(s) not found for architecture armv7sclang: error: linker command failed with exit code 1 (use -v to see invocation)4(21%IDEActivityLogMessage2@43""_OBJC_CLASS_$_LoginAuth", referenced from:-401353769#43#46#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@28"Objc-class-ref in testCase.o-401353769#89#35#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@43"Symbol(s) not found for architecture armv7s-401353769#124#48#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-401353769#172#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--0#0#1#--1352"Ld Build/Products/Debug-iphoneos/pdTest.app/pdTest normal armv7s    cd /Users/sasaki/PointDetector-iOS    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos -L/Users/sasaki/PointDetector-iOS/build/Products/Debug-iphoneos -F/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos -filelist /Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Objects-normal/armv7s/pdTest.LinkFileList -dead_strip -ObjC -all_load -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=5.1 -lPods-pdTest -framework QuartzCore -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Objects-normal/armv7s/pdTest_dependency_info.dat -o /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/pdTest.app/pdTest36"8B1A948B-D5A5-4480-9C7E-CD937A928DE0-
+bDE35D669-F4E6-4561-9BA7-1275939D425D
 
 CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Script-9BA63D6E541441AE9DD21E09.sh
-s401338720.942026
-e401338720.969593
+s401353768.060953
+e401353768.088550
 r1
 xPhaseScriptExecution
 xCheck Pods Manifest.lock
 x/Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Script-9BA63D6E541441AE9DD21E09.sh
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'150"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Script-9BA63D6E541441AE9DD21E09.sh7eabf160f1ebb741^c138f860f1ebb741^---0#0#1#--340"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Script-9BA63D6E541441AE9DD21E09.sh    cd /Users/sasaki/PointDetector-iOS    /bin/sh -c /Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Script-9BA63D6E541441AE9DD21E09.sh36"AB1DB05F-561B-4AB6-884A-41CB9F149705-
-b6F524DEA-329D-4B63-AE1F-5AD13024B115
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'150"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Script-9BA63D6E541441AE9DD21E09.sh554d10282cecb741^efab16282cecb741^---0#0#1#--340"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Script-9BA63D6E541441AE9DD21E09.sh    cd /Users/sasaki/PointDetector-iOS    /bin/sh -c /Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Script-9BA63D6E541441AE9DD21E09.sh36"8395CE09-FEB9-4C1A-8DD5-E6B97214C1B1-
+bDE35D669-F4E6-4561-9BA7-1275939D425D
 
 CPhaseScriptExecution Copy\ Pods\ Resources /Users/sasaki/PointDetector-iOS/Build/Intermediates/pointdetector.build/Debug-iphoneos/pdTest.build/Script-814F7E8E32874ECE9C898F82.sh
 s401338723.758291

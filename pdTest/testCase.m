@@ -27,22 +27,12 @@
     GHAssertEqualStrings(@"SAMPLE", [mock uppercaseString], @"match");
 }
 
-//- (void) testLoginForm
-//{
-//    // モックを作成
-//    id mock = [OCMockObject mockForClass:LoginAuth.class];
-//    
-//    NSURL *loginUrl = [NSURL URLWithString:[NSString stringWithCString:SERVER_LOGIN encoding:NSUTF8StringEncoding]];
-//    
-//    // ユーザーとパスワードを設定
-//    NSString *username = @"";
-//    NSString *password = @"";
-//    NSDictionary *loginParams = [NSDictionary dictionaryWithObjectsAndKeys:
-//                                 username, @"username",
-//                                 password, @"password", nil];
-//    
-//    [[mock stub] post:loginUrl withParameters:loginParams flag:false];
-//    
-//}
+- (void) testLoginForm
+{
+    
+//    id mock = [OCMockObject mockForClass:[SecondViewController class]];
+    
+    
+}
 
 @end

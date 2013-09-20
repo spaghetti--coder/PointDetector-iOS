@@ -757,7 +757,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies5052dc60f1ebb741^aaefdc60f1ebb741^---0#1#1#--18"Check dependencies36"B7B9AAC6-DDF1-405F-85FE-192AA8FE8189-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa6f0b0272cecb741^bf0cfe272cecb741^---0#1#1#--18"Check dependencies36"A2FE7006-53E3-4C32-882C-7CF281C5EE10-
 
 CCompileC /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest-GHUnitIOS.build/Objects-normal/armv7/GHAsyncTestCase.o /Users/sasaki/PointDetector-iOS/Pods/GHUnitIOS/Classes/GHAsyncTestCase.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s401338373.001213
