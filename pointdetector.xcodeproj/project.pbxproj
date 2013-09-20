@@ -560,7 +560,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "GHUNIT_CLI=1\nWRITE_JUNIT_XML=YES\nJUNIT_XML_DIR=\"tmp/test-reports\"\n\nsh RunTests.sh\n";
+			shellScript = "#GHUNIT_CLI=1\n#WRITE_JUNIT_XML=YES\n#JUNIT_XML_DIR=\"tmp/test-reports\"\n#\n#sh RunTests.sh\n";
 		};
 		EAFC064617ABA3EA007F4122 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
