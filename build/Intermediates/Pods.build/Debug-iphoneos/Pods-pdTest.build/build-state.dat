@@ -1,0 +1,149 @@
+TPods-pdTest
+v6
+r1
+cCheck dependencies
+cCompileC /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/Pods-pdTest-dummy.o /Users/sasaki/PointDetector-iOS/Pods/Pods-pdTest-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7s/Pods-pdTest-dummy.o /Users/sasaki/PointDetector-iOS/Pods/Pods-pdTest-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/libPods-pdTest.a normal armv7
+cLibtool /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7s/libPods-pdTest.a normal armv7s
+cCreateUniversalBinary /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/libPods-pdTest.a normal armv7\ armv7s
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c00000000521BCCE10000000000000110
+t1377553633
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c0000000052365543000000000000036B
+t1379292483
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052365547000000000000019E
+t1379292487
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000523655510000000000A8EAD0
+t1379292497
+s11070160
+
+N/Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/Pods-pdTest-dummy.o
+t1379645575
+s3396
+
+N/Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/Pods-pdTest.LinkFileList
+c00000000523BB8870000000000000089
+t1379645575
+s137
+
+N/Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/libPods-pdTest.a
+t1379645575
+s1504008
+
+N/Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7s/Pods-pdTest-dummy.o
+t1379645575
+s3396
+
+N/Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7s/Pods-pdTest.LinkFileList
+c00000000523BB887000000000000008A
+t1379645575
+s138
+
+N/Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7s/libPods-pdTest.a
+t1379645575
+s1503944
+
+N/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/libPods-pdTest-GHUnitIOS.a
+c00000000523BB88700000000002471D0
+t1379645575
+s2388432
+
+N/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/libPods-pdTest-OCMock.a
+c00000000523BB8860000000000095930
+t1379645574
+s612656
+
+N/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/libPods-pdTest.a
+t1379645575
+s3008000
+
+N/Users/sasaki/PointDetector-iOS/Pods/Pods-pdTest-dummy.m
+c00000000523BB5F5000000000000007E
+t1379644917
+s126
+
+CBuild AST from /Users/sasaki/PointDetector-iOS/Pods/Pods-pdTest-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa357e760f1ebb741^53cee760f1ebb741^---0#1#1#--18"Check dependencies36"E0A14D37-A343-4808-AC99-CC2728E95137-
+
+CCompileC /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/Pods-pdTest-dummy.o /Users/sasaki/PointDetector-iOS/Pods/Pods-pdTest-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s401338375.096139
+e401338375.241742
+r1
+xCompileC
+x/Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/Pods-pdTest-dummy.o
+x/Users/sasaki/PointDetector-iOS/Pods/Pods-pdTest-dummy.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sasaki/PointDetector-iOS/Pods/Pods-pdTest-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/sasaki/PointDetector-iOS/Pods/Pods-pdTest-dummy.m234"CompileC /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/Pods-pdTest-dummy.o Pods-pdTest-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler61c61807f0ebb741^00e33d07f0ebb741^---0#0#1#-19%DVTDocumentLocation2@72"file://localhost/Users/sasaki/PointDetector-iOS/Pods/Pods-pdTest-dummy.m0000000000000000^3248"CompileC /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/Pods-pdTest-dummy.o Pods-pdTest-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sasaki/PointDetector-iOS/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.3 -iquote /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Pods-pdTest-generated-files.hmap -I/Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Pods-pdTest-own-target-headers.hmap -I/Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Pods-pdTest-all-target-headers.hmap -iquote /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Pods-pdTest-project-headers.hmap -I/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/include -I/Users/sasaki/PointDetector-iOS/Pods/Pods/Headers -I/Users/sasaki/PointDetector-iOS/Pods/Pods/Headers/GHUnitIOS -I/Users/sasaki/PointDetector-iOS/Pods/Pods/Headers/OCMock -I/Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/DerivedSources/armv7 -I/Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/DerivedSources -F/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos -MMD -MT dependencies -MF /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/Pods-pdTest-dummy.d --serialize-diagnostics /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/Pods-pdTest-dummy.dia -c /Users/sasaki/PointDetector-iOS/Pods/Pods-pdTest-dummy.m -o /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/Pods-pdTest-dummy.o36"B50A715D-818E-4ED8-AC24-B58C6057B345-
+b7FC40346-6807-4492-9B28-A07565E9FAC5
+
+CCompileC /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7s/Pods-pdTest-dummy.o /Users/sasaki/PointDetector-iOS/Pods/Pods-pdTest-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s401338375.096510
+e401338375.221963
+r1
+xCompileC
+x/Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7s/Pods-pdTest-dummy.o
+x/Users/sasaki/PointDetector-iOS/Pods/Pods-pdTest-dummy.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/sasaki/PointDetector-iOS/Pods/Pods-pdTest-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/sasaki/PointDetector-iOS/Pods/Pods-pdTest-dummy.m236"CompileC /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7s/Pods-pdTest-dummy.o Pods-pdTest-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerf2d31807f0ebb741^bfee3807f0ebb741^---0#0#1#-19%DVTDocumentLocation2@72"file://localhost/Users/sasaki/PointDetector-iOS/Pods/Pods-pdTest-dummy.m0000000000000000^3255"CompileC /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7s/Pods-pdTest-dummy.o Pods-pdTest-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/sasaki/PointDetector-iOS/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.3 -iquote /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Pods-pdTest-generated-files.hmap -I/Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Pods-pdTest-own-target-headers.hmap -I/Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Pods-pdTest-all-target-headers.hmap -iquote /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Pods-pdTest-project-headers.hmap -I/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/include -I/Users/sasaki/PointDetector-iOS/Pods/Pods/Headers -I/Users/sasaki/PointDetector-iOS/Pods/Pods/Headers/GHUnitIOS -I/Users/sasaki/PointDetector-iOS/Pods/Pods/Headers/OCMock -I/Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/DerivedSources/armv7s -I/Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/DerivedSources -F/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos -MMD -MT dependencies -MF /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7s/Pods-pdTest-dummy.d --serialize-diagnostics /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7s/Pods-pdTest-dummy.dia -c /Users/sasaki/PointDetector-iOS/Pods/Pods-pdTest-dummy.m -o /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7s/Pods-pdTest-dummy.o36"9AF2D037-3C86-4522-B332-50EC26FC0B49-
+b7FC40346-6807-4492-9B28-A07565E9FAC5
+
+CCreateUniversalBinary /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/libPods-pdTest.a normal armv7\ armv7s
+s401338375.336132
+e401338375.433866
+r1
+xCreateUniversalBinary
+x/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/libPods-pdTest.a
+xnormal
+xarmv7 armv7s
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: for architecture: armv7 file: /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/libPods-pdTest.a(GTMObjC2Runtime.o) has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: for architecture: armv7s file: /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7s/libPods-pdTest.a(GTMObjC2Runtime.o) has no symbols
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Create universal binary /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/libPods-pdTest.a121"CreateUniversalBinary /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/libPods-pdTest.a normal armv7\ armv7s79205607f0ebb741^c2126f07f0ebb741^-590"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: for architecture: armv7 file: /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/libPods-pdTest.a(GTMObjC2Runtime.o) has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: for architecture: armv7s file: /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7s/libPods-pdTest.a(GTMObjC2Runtime.o) has no symbols-0#0#1#-19%DVTDocumentLocation2@94"file://localhost/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/libPods-pdTest.a00381c29ddffdf42^725"CreateUniversalBinary /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/libPods-pdTest.a normal armv7\ armv7s    cd /Users/sasaki/PointDetector-iOS/Pods    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    libtool -static /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/libPods-pdTest.a /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7s/libPods-pdTest.a -o /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/libPods-pdTest.a36"444916DB-55F1-4234-B385-9683599306E0-
+b7FC40346-6807-4492-9B28-A07565E9FAC5
+
+CLibtool /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/libPods-pdTest.a normal armv7
+s401338375.249929
+e401338375.327394
+r1
+xLibtool
+x/Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/libPods-pdTest.a
+xnormal
+xarmv7
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/libPods-pdTest-GHUnitIOS.a(GTMObjC2Runtime.o) has no symbols
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Libtool /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/libPods-pdTest.a normal armv7154"Libtool /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/libPods-pdTest.a normal armv7ce164007f0ebb741^98dd5307f0ebb741^-225"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/libPods-pdTest-GHUnitIOS.a(GTMObjC2Runtime.o) has no symbols-0#0#1#--1087"Libtool /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/libPods-pdTest.a normal armv7    cd /Users/sasaki/PointDetector-iOS/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos -filelist /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/Pods-pdTest.LinkFileList -framework Foundation -lPods-pdTest-GHUnitIOS -lPods-pdTest-OCMock -o /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/libPods-pdTest.a36"49295EEA-83EC-4052-91C6-5C0EAA7DFBAE-
+b7FC40346-6807-4492-9B28-A07565E9FAC5
+
+CLibtool /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7s/libPods-pdTest.a normal armv7s
+s401338375.249949
+e401338375.321162
+r1
+xLibtool
+x/Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7s/libPods-pdTest.a
+xnormal
+xarmv7s
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/libPods-pdTest-GHUnitIOS.a(GTMObjC2Runtime.o) has no symbols
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection156"Libtool /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7s/libPods-pdTest.a normal armv7s156"Libtool /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7s/libPods-pdTest.a normal armv7s72144007f0ebb741^473b5207f0ebb741^-225"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/libPods-pdTest-GHUnitIOS.a(GTMObjC2Runtime.o) has no symbols-0#0#1#--1092"Libtool /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7s/libPods-pdTest.a normal armv7s    cd /Users/sasaki/PointDetector-iOS/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos -filelist /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7s/Pods-pdTest.LinkFileList -framework Foundation -lPods-pdTest-GHUnitIOS -lPods-pdTest-OCMock -o /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7s/libPods-pdTest.a36"29261EEA-2488-464E-8B27-61DEA5429DD0-
+b7FC40346-6807-4492-9B28-A07565E9FAC5
+

@@ -1,0 +1,27 @@
+Contents of /Users/sasaki/PointDetector-iOS/Pods/Pods-pdTest-OCMock-prefix.pch
+-x
+objective-c
+-arch
+armv7s
+-std=gnu99
+-fpascal-strings
+-O0
+-DDEBUG=1
+-DCOCOAPODS=1
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+-g
+-miphoneos-version-min=4.3
+-iquote
+-iquote
+-I/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos/include
+-I/Users/sasaki/PointDetector-iOS/Pods/BuildHeaders
+-I/Users/sasaki/PointDetector-iOS/Pods/BuildHeaders/OCMock
+-I/Users/sasaki/PointDetector-iOS/Pods/Headers
+-I/Users/sasaki/PointDetector-iOS/Pods/Headers/GHUnitIOS
+-I/Users/sasaki/PointDetector-iOS/Pods/Headers/OCMock
+-F/Users/sasaki/PointDetector-iOS/Build/Products/Debug-iphoneos
+arm-apple-darwin12.4.1
+"4.2.1 Compatible Apple LLVM 5.0 (clang-500.2.76)"
+SDK_PRODUCT_BUILD_VERSION=11A465
+11A465

@@ -39,7 +39,7 @@
 		EA5FD56117B387D2003AEA4B /* AlertViewWithBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5FD56017B387D0003AEA4B /* AlertViewWithBlock.m */; };
 		EA70502717E153600040A12D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3F246017AF4951005232D8 /* QuartzCore.framework */; };
 		EA70502817E153A40040A12D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC062117ABA3EA007F4122 /* CoreGraphics.framework */; };
-		EA861F1217EBE8E3002F9A97 /* libPods-pdTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA861F1117EBE8E3002F9A97 /* libPods-pdTest.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		EA861F1717EBF096002F9A97 /* libPods-pdTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA861F1617EBF096002F9A97 /* libPods-pdTest.a */; };
 		EA9029C417B1D0A0000C9ABA /* TargetPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9029C317B1D0A0000C9ABA /* TargetPoint.m */; };
 		EA9029CB17B20A12000C9ABA /* PointDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9029CA17B20A12000C9ABA /* PointDetail.m */; };
 		EAC66DAD17D6E37A00DAB7C8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC66DAC17D6E37A00DAB7C8 /* MapKit.framework */; };
@@ -80,7 +80,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7F6617C4F17B4EB28E5E8190 /* libPods-pdTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pdTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89A9EC835B4A4094B11144A0 /* Pods-pdTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pdTest.xcconfig"; path = "Pods/Pods-pdTest.xcconfig"; sourceTree = "<group>"; };
 		EA1C263517E2B12A00CEEB71 /* pdTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pdTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA1C263B17E2B12A00CEEB71 /* pdTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pdTest-Info.plist"; sourceTree = "<group>"; };
@@ -118,7 +117,8 @@
 		EA5FD55A17B365F3003AEA4B /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		EA5FD55F17B387CD003AEA4B /* AlertViewWithBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewWithBlock.h; sourceTree = "<group>"; };
 		EA5FD56017B387D0003AEA4B /* AlertViewWithBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewWithBlock.m; sourceTree = "<group>"; };
-		EA861F1117EBE8E3002F9A97 /* libPods-pdTest.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-pdTest.a"; path = "Pods/build/Debug-iphoneos/libPods-pdTest.a"; sourceTree = "<group>"; };
+		EA861F1417EBECC8002F9A97 /* libPods-pdTest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-pdTest.a"; path = "Pods/build/Debug-iphoneos/libPods-pdTest.a"; sourceTree = "<group>"; };
+		EA861F1617EBF096002F9A97 /* libPods-pdTest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-pdTest.a"; path = "build/Products/Debug-iphoneos/libPods-pdTest.a"; sourceTree = "<group>"; };
 		EA9029C217B1D0A0000C9ABA /* TargetPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetPoint.h; sourceTree = "<group>"; };
 		EA9029C317B1D0A0000C9ABA /* TargetPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetPoint.m; sourceTree = "<group>"; };
 		EA9029C917B20A12000C9ABA /* PointDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointDetail.h; sourceTree = "<group>"; };
@@ -155,7 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA861F1217EBE8E3002F9A97 /* libPods-pdTest.a in Frameworks */,
+				EA861F1717EBF096002F9A97 /* libPods-pdTest.a in Frameworks */,
 				EA1C266317E2D9FB00CEEB71 /* QuartzCore.framework in Frameworks */,
 				EA1C263717E2B12A00CEEB71 /* CoreGraphics.framework in Frameworks */,
 				EA1C263817E2B12A00CEEB71 /* UIKit.framework in Frameworks */,
@@ -249,7 +249,8 @@
 		EAFC061C17ABA3EA007F4122 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EA861F1117EBE8E3002F9A97 /* libPods-pdTest.a */,
+				EA861F1617EBF096002F9A97 /* libPods-pdTest.a */,
+				EA861F1417EBECC8002F9A97 /* libPods-pdTest.a */,
 				EA9D683517E067F100C17431 /* GHUnitIOS.framework */,
 				EAC66DAC17D6E37A00DAB7C8 /* MapKit.framework */,
 				EA5FD55A17B365F3003AEA4B /* Twitter.framework */,
@@ -262,7 +263,6 @@
 				EAFC062117ABA3EA007F4122 /* CoreGraphics.framework */,
 				EAFC064917ABA3EA007F4122 /* SenTestingKit.framework */,
 				EA1C264C17E2B12B00CEEB71 /* XCTest.framework */,
-				7F6617C4F17B4EB28E5E8190 /* libPods-pdTest.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -687,6 +687,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				INFOPLIST_FILE = "pdTest/pdTest-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/sasaki/PointDetector-iOS/build/Products/Debug-iphoneos",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
@@ -718,6 +722,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				INFOPLIST_FILE = "pdTest/pdTest-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/sasaki/PointDetector-iOS/build/Products/Debug-iphoneos",
+				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-ObjC",
