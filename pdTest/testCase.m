@@ -32,7 +32,6 @@
     
 //    id mock = [OCMockObject mockForClass:[SecondViewController class]];
     
-    
 }
 
 @end

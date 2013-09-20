@@ -78,7 +78,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesdcd907282cecb741^95ba08282cecb741^---0#1#1#--18"Check dependencies36"99DC60F9-1D4C-44B0-BC4B-BE5575689029-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies51a182ea3aecb741^ba1285ea3aecb741^---0#1#1#--18"Check dependencies36"4D539959-0CA3-47AC-8EDB-0250DDC9FC64-
 
 CCompileC /Users/sasaki/PointDetector-iOS/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-pdTest.build/Objects-normal/armv7/Pods-pdTest-dummy.o /Users/sasaki/PointDetector-iOS/Pods/Pods-pdTest-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s401338375.096139

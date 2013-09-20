@@ -40,6 +40,7 @@
 		EA70502717E153600040A12D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3F246017AF4951005232D8 /* QuartzCore.framework */; };
 		EA70502817E153A40040A12D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC062117ABA3EA007F4122 /* CoreGraphics.framework */; };
 		EA861F1717EBF096002F9A97 /* libPods-pdTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA861F1617EBF096002F9A97 /* libPods-pdTest.a */; };
+		EA861F1A17EC39D0002F9A97 /* testView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA861F1917EC39D0002F9A97 /* testView.m */; };
 		EA9029C417B1D0A0000C9ABA /* TargetPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9029C317B1D0A0000C9ABA /* TargetPoint.m */; };
 		EA9029CB17B20A12000C9ABA /* PointDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9029CA17B20A12000C9ABA /* PointDetail.m */; };
 		EAC66DAD17D6E37A00DAB7C8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC66DAC17D6E37A00DAB7C8 /* MapKit.framework */; };
@@ -119,6 +120,8 @@
 		EA5FD56017B387D0003AEA4B /* AlertViewWithBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewWithBlock.m; sourceTree = "<group>"; };
 		EA861F1417EBECC8002F9A97 /* libPods-pdTest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-pdTest.a"; path = "Pods/build/Debug-iphoneos/libPods-pdTest.a"; sourceTree = "<group>"; };
 		EA861F1617EBF096002F9A97 /* libPods-pdTest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-pdTest.a"; path = "build/Products/Debug-iphoneos/libPods-pdTest.a"; sourceTree = "<group>"; };
+		EA861F1817EC39D0002F9A97 /* testView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testView.h; sourceTree = "<group>"; };
+		EA861F1917EC39D0002F9A97 /* testView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testView.m; sourceTree = "<group>"; };
 		EA9029C217B1D0A0000C9ABA /* TargetPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetPoint.h; sourceTree = "<group>"; };
 		EA9029C317B1D0A0000C9ABA /* TargetPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetPoint.m; sourceTree = "<group>"; };
 		EA9029C917B20A12000C9ABA /* PointDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointDetail.h; sourceTree = "<group>"; };
@@ -208,6 +211,8 @@
 			children = (
 				EA1C266017E2B1DA00CEEB71 /* testCase.h */,
 				EA1C266117E2B1DA00CEEB71 /* testCase.m */,
+				EA861F1817EC39D0002F9A97 /* testView.h */,
+				EA861F1917EC39D0002F9A97 /* testView.m */,
 				EA1C264517E2B12A00CEEB71 /* Images.xcassets */,
 				EA1C263A17E2B12A00CEEB71 /* Supporting Files */,
 			);
@@ -560,7 +565,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "sh PrepareUITest.sh\n\n#GHUNIT_CLI=1\n#WRITE_JUNIT_XML=YES\n#JUNIT_XML_DIR=\"tmp/test-reports\"\n#\n#sh RunTests.sh\n";
+			shellScript = "sh PrepareUITests.sh\n\n#GHUNIT_CLI=1\n#WRITE_JUNIT_XML=YES\n#JUNIT_XML_DIR=\"tmp/test-reports\"\n#\n#sh RunTests.sh\n";
 		};
 		EAFC064617ABA3EA007F4122 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -582,6 +587,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA861F1A17EC39D0002F9A97 /* testView.m in Sources */,
 				EA1C264017E2B12A00CEEB71 /* main.m in Sources */,
 				EA1C266217E2B1DA00CEEB71 /* testCase.m in Sources */,
 			);
