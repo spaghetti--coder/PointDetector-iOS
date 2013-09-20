@@ -26,16 +26,16 @@ export DYLD_FRAMEWORK_PATH="$CONFIGURATION_BUILD_DIR"
 #TEST_TARGET_EXECUTABLE_PATH="$TARGET_BUILD_DIR/$EXECUTABLE_PATH"
 TEST_TARGET_EXECUTABLE_PATH="/Users/Shared/Jenkins/Home/workspace/PointDetector\(iOS\)/build/Products/Debug-iphoneos/pdTest.app/pdTest"
 
-if [ ! -e "$TEST_TARGET_EXECUTABLE_PATH" ]; then
-  echo ""
-  echo "  ------------------------------------------------------------------------"
-  echo "  Missing executable path: "
-  echo "     $TEST_TARGET_EXECUTABLE_PATH."
-  echo "  The product may have failed to build or could have an old xcodebuild in your path (from 3.x instead of 4.x)."
-  echo "  ------------------------------------------------------------------------"
-  echo ""
-  exit 1
-fi
+#if [ ! -e "$TEST_TARGET_EXECUTABLE_PATH" ]; then
+#  echo ""
+#  echo "  ------------------------------------------------------------------------"
+#  echo "  Missing executable path: "
+#  echo "     $TEST_TARGET_EXECUTABLE_PATH."
+#  echo "  The product may have failed to build or could have an old xcodebuild in your path (from 3.x instead of 4.x)."
+#  echo "  ------------------------------------------------------------------------"
+#  echo ""
+#  exit 1
+#fi
 
 # If trapping fails, make sure we kill any running securityd
 launchctl list | grep GHUNIT_RunIPhoneSecurityd && launchctl remove GHUNIT_RunIPhoneSecurityd
